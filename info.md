@@ -43,4 +43,4 @@ Sfinții, dezlegările la post și citirile au fost preluate de la [noutati-orto
 
 ---
 
-Pentru documentație completă, vezi [README](https://github.com/emanuelbesliu/homeassistant-calendar-crestin-ortodox/blob/main/README.md)
+Pentru documentație completă, vezi [README](https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox/blob/main/README.md)

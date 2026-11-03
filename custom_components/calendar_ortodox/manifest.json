@@ -5,9 +5,9 @@
     "@emanuelbesliu"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/emanuelbesliu/homeassistant-calendar-crestin-ortodox",
+  "documentation": "https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox",
   "iot_class": "calculated",
-  "issue_tracker": "https://github.com/emanuelbesliu/homeassistant-calendar-crestin-ortodox/issues",
+  "issue_tracker": "https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox/issues",
   "requirements": [],
   "version": "2.0.0"
 }

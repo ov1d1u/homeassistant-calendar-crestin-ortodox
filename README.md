@@ -1,8 +1,8 @@
 # Calendar Ortodox - Home Assistant Integration
 
 [![HACS](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
-[![GitHub Release](https://img.shields.io/github/v/release/emanuelbesliu/homeassistant-calendar-crestin-ortodox)](https://github.com/emanuelbesliu/homeassistant-calendar-crestin-ortodox/releases/latest)
-[![License](https://img.shields.io/github/license/emanuelbesliu/homeassistant-calendar-crestin-ortodox)](LICENSE)
+[![GitHub Release](https://img.shields.io/github/v/release/ov1d1u/homeassistant-calendar-crestin-ortodox)](https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox/releases/latest)
+[![License](https://img.shields.io/github/license/ov1d1u/homeassistant-calendar-crestin-ortodox)](LICENSE)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/emanuelbesliu)
 
 **Integrare custom Home Assistant pentru [calendar creștin ortodox](https://www.noutati-ortodoxe.ro/calendar-ortodox/)**
@@ -55,15 +55,17 @@ Monitorizează zilnic sfinții, sărbătorile, posturile și citirile liturgice 
 1. Deschide **HACS** în Home Assistant
 2. Mergi la **Integrations**
 3. Click pe **⋮** → **Custom repositories**
-4. Adaugă URL: `https://github.com/emanuelbesliu/homeassistant-calendar-crestin-ortodox`
+4. Adaugă URL: `https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox`
 5. Categorie: **Integration**
 6. Click **Add**
 7. Caută "**Calendar Ortodox**" și instalează
 8. Restartează Home Assistant
 
+> **Treci de la versiunea veche** (`emanuelbesliu/homeassistant-calendar-crestin-ortodox`)? În HACS → **⋮** → **Custom repositories**, șterge repository-ul vechi și adaugă-l pe cel de mai sus, apoi instalează versiunea 2.0.0. Integrarea are același nume (`calendar_ortodox`), deci entitățile și configurarea rămân neschimbate.
+
 ### Metoda 2: Manual
 
-1. Descarcă [ultima versiune](https://github.com/emanuelbesliu/homeassistant-calendar-crestin-ortodox/releases)
+1. Descarcă [ultima versiune](https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox/releases)
 2. Copiază folderul `calendar_ortodox` în directorul `custom_components`:
    ```
    /config/custom_components/calendar_ortodox/
@@ -371,9 +373,9 @@ Datele calendarului aparțin noutati-ortodoxe.ro și sunt folosite cu respect pe
 
 ## 📞 Suport
 
-- 🐛 **Bug reports:** [GitHub Issues](https://github.com/emanuelbesliu/homeassistant-calendar-crestin-ortodox/issues)
-- 💬 **Discuții:** [GitHub Discussions](https://github.com/emanuelbesliu/homeassistant-calendar-crestin-ortodox/discussions)
-- ⭐ **Apreciază proiectul:** [GitHub Stars](https://github.com/emanuelbesliu/homeassistant-calendar-crestin-ortodox)
+- 🐛 **Bug reports:** [GitHub Issues](https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox/issues)
+- 💬 **Discuții:** [GitHub Discussions](https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox/discussions)
+- ⭐ **Apreciază proiectul:** [GitHub Stars](https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox)
 
 ---
 

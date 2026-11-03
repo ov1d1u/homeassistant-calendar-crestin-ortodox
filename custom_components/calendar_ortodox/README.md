@@ -34,12 +34,14 @@ A Home Assistant custom integration that provides the Romanian Orthodox calendar
 3. Go to Settings → Devices & Services → Add Integration
 4. Search for "Calendar Ortodox" and click to add
 
-### HACS Installation (coming soon)
+### HACS Installation (recommended)
 1. Open HACS in Home Assistant
-2. Go to Integrations
-3. Click the three dots menu and select "Custom repositories"
-4. Add this repository URL
-5. Search for "Calendar Ortodox" and install
+2. Click the three dots menu and select "Custom repositories"
+3. Add `https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox` with category **Integration**
+4. Search for "Calendar Ortodox", install it and restart Home Assistant
+
+Upgrading from the original repository (`emanuelbesliu/homeassistant-calendar-crestin-ortodox`)? Remove it from
+"Custom repositories" and add the URL above. The integration domain is unchanged, so entities and settings are kept.
 
 ## Configuration
 
@@ -193,12 +195,12 @@ Everything is computed locally; no internet access is needed. States update just
 
 ## Support
 
-For issues, questions, or feature requests, please open an issue on [GitHub](https://github.com/emanuelbesliu/calendar_ortodox).
+For issues, questions, or feature requests, please open an issue on [GitHub](https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox/issues).
 
 ## Credits
 
 - Calendar data provided by [noutati-ortodoxe.ro](https://www.noutati-ortodoxe.ro)
-- Integration developed by @emanuelbesliu
+- Integration developed by @emanuelbesliu; offline version maintained at [ov1d1u/homeassistant-calendar-crestin-ortodox](https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox)
 
 ## ☕ Support the Developer
 
