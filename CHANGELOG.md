@@ -5,6 +5,27 @@ All notable changes to the Calendar Ortodox Home Assistant Integration will be d
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2026-11-03
+
+### Changed
+- **Works fully offline.** The integration no longer downloads anything from noutati-ortodoxe.ro.
+  Easter and all movable feasts are calculated locally; saints, fixed feasts, fasting exceptions
+  and Sunday readings are bundled in `data/*.json`.
+- No Python dependencies any more (BeautifulSoup4 and lxml removed); `iot_class` is now `calculated`.
+- `day_of_week` attributes now contain the full Romanian name (e.g. `Luni`).
+- `moon_phase` is now `new_moon`, `first_quarter`, `full_moon` or `last_quarter`, computed for the
+  Home Assistant time zone.
+- Fasting texts no longer include parentheses (e.g. `Post` instead of `(Post)`).
+- `refresh_calendar` now recomputes the calendar instead of downloading it.
+
+### Added
+- `no_weddings` attribute (days when weddings are not held).
+- `fasting_type`, `fasting_period`, `notes`, `romanian_saints`, `tone` and `eothinon` attributes.
+- Calendars work for any year, including across New Year (the old version only loaded the current year).
+- Sensor states longer than 255 characters are trimmed (the full text stays in the `saints` attribute).
+- Developer tools: `scripts/build_data.py` (rebuild the data), `scripts/compare_site.py`
+  (compare with the site), and tests against 17 saved years of the site's calendar.
+
 ## [1.0.8] - 2026-03-04
 
 ### Changed

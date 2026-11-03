@@ -1,4 +1,4 @@
 refresh_calendar:
   name: Refresh Calendar
-  description: Force refresh the calendar data from the website, clearing any cached data.
+  description: Recompute the calendar (clears cached days). Data is computed locally, no internet access is needed.
   fields: {}

@@ -1,0 +1,56 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  tests:
+    name: Engine tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install development dependencies
+        run: pip install -r requirements_dev.txt
+
+      - name: Check the integration has no runtime requirements
+        run: |
+          python -c "import json, sys; reqs = json.load(open('custom_components/calendar_ortodox/manifest.json'))['requirements']; sys.exit(f'unexpected requirements: {reqs}' if reqs else 0)"
+
+      - name: Check bundled data is up to date
+        run: |
+          python scripts/build_data.py
+          git diff --exit-code custom_components/calendar_ortodox/data
+
+      - name: Run tests
+        run: pytest -q tests
+
+  ha-tests:
+    name: Home Assistant tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.14"
+
+      - name: Install dependencies
+        run: pip install -r requirements_dev.txt pytest-homeassistant-custom-component
+
+      - name: Run tests
+        run: pytest -q tests

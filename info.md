@@ -4,7 +4,7 @@ Integrare Home Assistant pentru calendar creștin ortodox din România.
 
 Monitorizează zilnic sfinții, sărbătorile, posturile și citirile liturgice.
 
-> **Versiunea curentă:** v1.0.7
+> **Versiunea curentă:** v2.0.0 - funcționează complet offline, fără internet
 
 ## Caracteristici Principale
 
@@ -12,8 +12,9 @@ Monitorizează zilnic sfinții, sărbătorile, posturile și citirile liturgice.
 🌟 **Sărbători** - Praznice mari marcate distinct  
 🍞 **Post** - Informații detaliate despre post și dezlegări  
 📖 **Citiri Liturgice** - Apostol și Evanghelie pentru duminici  
-🌙 **Faze Lunare** - Informații despre lună  
-🔄 **Serviciu Refresh** - Actualizare manuală la cerere
+💍 **Zile fără nunți** - Atributul `no_weddings`  
+🌙 **Faze Lunare** - Calculate local  
+📴 **Offline** - Paștele și sărbătorile cu dată schimbătoare sunt calculate local
 
 ## Instalare
 
@@ -29,7 +30,7 @@ Monitorizează zilnic sfinții, sărbătorile, posturile și citirile liturgice.
 
 ## Serviciu Disponibil
 
-**`calendar_ortodox.refresh_calendar`** - Forțează actualizarea imediată a datelor calendarului
+**`calendar_ortodox.refresh_calendar`** - Recalculează calendarul (șterge zilele din cache)
 
 Folosește în Developer Tools → Services sau în automatizări:
 ```yaml
@@ -38,7 +39,7 @@ service: calendar_ortodox.refresh_calendar
 
 ## Sursa Datelor
 
-Datele sunt preluate de la [noutati-ortodoxe.ro](https://www.noutati-ortodoxe.ro/calendar-ortodox/)
+Sfinții, dezlegările la post și citirile au fost preluate de la [noutati-ortodoxe.ro](https://www.noutati-ortodoxe.ro/calendar-ortodox/) și sunt incluse în integrare. Integrarea nu accesează site-ul.
 
 ---
 

@@ -1,0 +1,1815 @@
+{
+ "01-01": {
+  "saints": "(†) Tăierea-împrejur cea după trup a Domnului; †) Sf. Ier. Vasile cel Mare, arhiep. Cezareei Capadociei și mama sa Sf. Emilia",
+  "red": true,
+  "notes": [
+   "Tedeum - Anul Nou"
+  ],
+  "no_weddings": true,
+  "sunday_prefix": {
+   "apostle": "Coloseni II, 8-12; Evrei XIII, 17-21",
+   "gospel": "Luca II, 20-21; 40-52"
+  }
+ },
+ "01-02": {
+  "saints": "Înainte-prăznuirea Botezului Domnului; Sf. Ier. Silvestru, ep. Romei; Sf. Cuv. Serafim de Sarov",
+  "no_weddings": true
+ },
+ "01-03": {
+  "saints": "Sf. Prooroc Maleahi; Sf. Mc. Gordie",
+  "no_weddings": true
+ },
+ "01-04": {
+  "saints": "Soborul Sf. 70 de Apostoli; Sf. Cuv. Teoctist din Siciliei; Sf. Cuv. Apolinaria; Sf. Cuv. Nichifor cel Lepros",
+  "no_weddings": true
+ },
+ "01-05": {
+  "saints": "Sf. Mc. Teopempt și Teonas; Sf. Cuv. Sinclitichia",
+  "notes": [
+   "Ajunul Botezului Domnului"
+  ],
+  "no_weddings": true
+ },
+ "01-06": {
+  "saints": "(†) Botezul Domnului (Boboteaza - Dumnezeiasca Arătare)",
+  "red": true,
+  "fast": {
+   "wf": "Harți"
+  },
+  "no_weddings": true
+ },
+ "01-07": {
+  "saints": "† Soborul Sf. Prooroc Ioan Botezătorul și Înaintemergătorul Domnului",
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la pește"
+  },
+  "sunday_prefix": {
+   "apostle": "Fapte XIX, 1-8",
+   "gospel": "Ioan I, 29-34"
+  }
+ },
+ "01-08": {
+  "saints": "Sf. Cuv. Gheorghe Hozevitul; Sf. Cuv. Domnica"
+ },
+ "01-09": {
+  "saints": "Sf. Mc. Polieuct; Sf. Ier. Petru, ep. Sevastiei"
+ },
+ "01-10": {
+  "saints": "Sf. Ier. Grigorie, ep. Nyssei; †) Sf. Cuv. Antipa de la Calapodești; Sf. Ier. Dometian, ep. Melitenei",
+  "romanian": [
+   "†) Sf. Cuv. Antipa de la Calapodești"
+  ]
+ },
+ "01-11": {
+  "saints": "† Sf. Cuv. Teodosie, începătorul vieții călugărești de obște din Palestina; Sf. Cuv. Vitalie",
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "01-12": {
+  "saints": "Sf. Mc. Tatiana diaconița și Eutasia"
+ },
+ "01-13": {
+  "saints": "† Sf. Mc. Ermil și Stratonic; Sf. Ier. Iacob, ep. din Nisibe",
+  "romanian": [
+   "† Sf. Mc. Ermil și Stratonic"
+  ]
+ },
+ "01-14": {
+  "saints": "Odovania praznicului Botezului Domnului; Sf. Cuv. Mc. din Sinai și Rait; Sf. Nina, luminătoarea Georgiei"
+ },
+ "01-15": {
+  "saints": "Sf. Cuv. Pavel Tebeul și Ioan Colibașul"
+ },
+ "01-16": {
+  "saints": "Cinstirea lanțului Sf. Ap. Petru; Sf. Mc. Danact citețul"
+ },
+ "01-17": {
+  "saints": "†) Sf. Cuv. Antonie cel Mare; Sf. Cuv. Antonie cel nou de la Veria",
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "01-18": {
+  "saints": "† Sf. Ier. Atanasie și Chiril, arhiep. Alexandriei",
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "01-19": {
+  "saints": "Sf. Cuv. Macarie cel Mare și Macarie Alexandrinul; Sf. Ier. Marcu, mitr. Efesului; Sf. Mc. Eufrasia"
+ },
+ "01-20": {
+  "saints": "†) Sf. Cuv. Eftimie cel Mare; Sf. Mc. Eusebiu; † Sf. Mc. In, Pin și Rim",
+  "romanian": [
+   "† Sf. Mc. In, Pin și Rim"
+  ],
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "01-21": {
+  "saints": "Sf. Cuv. Maxim Mărt.; Sf. Mc. Neofit; Sf. Mc. Agnia din Roma"
+ },
+ "01-22": {
+  "saints": "Sf. Ap. Timotei; Sf. Cuv. Mc. Anastasie Persul"
+ },
+ "01-23": {
+  "saints": "Sf. Sfințit Mc. Clement, ep. Ancirei; Sf. Mc. Agatanghel; Sf. Părinți de la Sinodul al VI-lea Ecumenic"
+ },
+ "01-24": {
+  "saints": "Sf. Cuv. Xenia din Roma; Sf. Xenia din Sankt Petersburg",
+  "notes": [
+   "Tedeum - Ziua Unirii Principatelor Române"
+  ]
+ },
+ "01-25": {
+  "saints": "†) Sf. Ier. Grigorie Teologul, arhiep. Constantinopolului; †) Sf. Ier. Bretanion, ep. Tomisului",
+  "romanian": [
+   "†) Sf. Ier. Bretanion, ep. Tomisului"
+  ],
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "01-26": {
+  "saints": "†) Sf. Ier. Iosif cel Milostiv, mitr. Moldovei; Sf. Cuv. Xenofont, Maria, Arcadie și Ioan",
+  "romanian": [
+   "†) Sf. Ier. Iosif cel Milostiv, mitr. Moldovei"
+  ]
+ },
+ "01-27": {
+  "saints": "† Aducerea moaștelor Sf. Ier. Ioan Gură de Aur; Sf. Marciana, împ.",
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "01-28": {
+  "saints": "Sf. Cuv. Efrem Sirul, Isaac Sirul, Paladie și Iacob Sihastrul"
+ },
+ "01-29": {
+  "saints": "Aducerea moaștelor Sf. Sfințit Mc. Ignatie Teoforul; Sf. Mc. Filotei"
+ },
+ "01-30": {
+  "saints": "†) Sf. Trei Ierarhi: Vasile cel Mare, Grigorie Teologul și Ioan Gură de Aur; Sf. Sfințit Mc. Ipolit, ep. Romei",
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  },
+  "sunday_prefix": {
+   "apostle": "Evrei XIII, 7-16",
+   "gospel": "Matei V, 14-19"
+  }
+ },
+ "01-31": {
+  "saints": "Sf. Doctori fără de arginți Chir și Ioan"
+ },
+ "02-01": {
+  "saints": "Înainte-prăznuirea Întâmpinării Domnului; Sf. Mc. Trifon; Sf. Mc. Perpetua și Felicitas",
+  "no_weddings": true
+ },
+ "02-02": {
+  "saints": "(†) Întâmpinarea Domnului (Stratenia); Evrei VII, 7-17",
+  "red": true,
+  "notes": [
+   "Utrenie: Luca II, 25-32"
+  ],
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la pește"
+  },
+  "no_weddings": true,
+  "sunday_prefix": {
+   "apostle": "Luca II, 22-40"
+  }
+ },
+ "02-03": {
+  "saints": "Sf. și Dreptul Simeon, primitorul de Dumnezeu; Sf. Proorociță Ana"
+ },
+ "02-04": {
+  "saints": "Sf. Cuv. Isidor Pelusiotul; Sf. Sfințit Mc. Avramie"
+ },
+ "02-05": {
+  "saints": "Sf. Mc. Agata și Teodula"
+ },
+ "02-06": {
+  "saints": "Sf. Ier. Vucol, ep. Smirnei și Fotie, patr. Constantinopolului; Sf. Cuv. Varsanufie cel Mare și Ioan din Gaza"
+ },
+ "02-07": {
+  "saints": "Sf. Ier. Partenie, ep. Lampsacului; Sf. Cuv. Luca din Elada"
+ },
+ "02-08": {
+  "saints": "Sf. M. Mc. Teodor Stratilat; Sf. Proroc Zaharia"
+ },
+ "02-09": {
+  "saints": "Odovania Praznicului Întâmpinării Domnului; Sf. Mc. Nichifor"
+ },
+ "02-10": {
+  "saints": "†) Sf. Sfințit Mc. Haralambie; Sf. Mc. Valentina",
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "02-11": {
+  "saints": "Sf. Sfințit Mc. Vlasie, ep. Sevastiei; Sf. Teodora, împ."
+ },
+ "02-12": {
+  "saints": "Sf. Ier. Meletie, arhiep. Antiohiei celei Mari; Sf. Mc. Hristea"
+ },
+ "02-13": {
+  "saints": "Sf. Cuv. Martinian; Sf. Ap. și Mc. Acvila și soția sa, Priscila; Sf. Ier. Evloghie, patr. Alexandriei"
+ },
+ "02-14": {
+  "saints": "Sf. Cuv. Auxenție, Maron și Avraam"
+ },
+ "02-15": {
+  "saints": "Sf. Ap. Onisim; Sf. Mc. Maior"
+ },
+ "02-16": {
+  "saints": "Sf. Mc. Pamfil preotul și Valent diaconul; Sf. Ier. Flavian, arhiep. Constantinopolului"
+ },
+ "02-17": {
+  "saints": "Sf. M. Mc. Teodor Tiron; Sf. Mariamna; Sf. Împ. Marcian și Pulheria"
+ },
+ "02-18": {
+  "saints": "Sf. Ier. Leon cel Mare, ep. Romei"
+ },
+ "02-19": {
+  "saints": "Sf. Ap. Arhip, Filimon și soția sa, Apfia"
+ },
+ "02-20": {
+  "saints": "Sf. Ier. Leon, ep. Cataniei; Sf. Cuv. Visarion"
+ },
+ "02-21": {
+  "saints": "Sf. Cuv. Timotei; Sf. Ier. Eustatie, arhiep. Antiohiei"
+ },
+ "02-22": {
+  "saints": "Aflarea moaștelor Sf. Mc. din Constantinopol"
+ },
+ "02-23": {
+  "saints": "Sf. Sfințit Mc. Policarp, ep. Smirnei; Sf. Cuv. Gorgonia"
+ },
+ "02-24": {
+  "saints": "† Întâia și a doua aflare a Capului Sf. Ioan, Înaintemergătorul și Botezătorul Domnului; †) Sf. Cuv. Petroniu de la Prodromu",
+  "romanian": [
+   "†) Sf. Cuv. Petroniu de la Prodromu"
+  ],
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "02-25": {
+  "saints": "Sf. Ier. Tarasie, patr. Constantinopolului"
+ },
+ "02-26": {
+  "saints": "Sf. Ier. Porfirie, ep. Gazei; Sf. Mc. Fotini Samarineanca"
+ },
+ "02-27": {
+  "saints": "Sf. Cuv. Mărt. Procopie și Talaleu"
+ },
+ "02-28": {
+  "saints": "†) Sf. Cuv. Ioan Casian Romanul și Gherman din Dobrogea; Sf. Cuv. Vasile Mărt.",
+  "romanian": [
+   "†) Sf. Cuv. Ioan Casian Romanul și Gherman din Dobrogea"
+  ]
+ },
+ "02-28L": {
+  "saints": "Sf. Cuv. Vasile Mărt."
+ },
+ "02-29": {
+  "saints": "†) Sf. Cuv. Ioan Casian Romanul și Gherman din Dobrogea",
+  "romanian": [
+   "†) Sf. Cuv. Ioan Casian Romanul și Gherman din Dobrogea"
+  ]
+ },
+ "03-01": {
+  "saints": "Sf. Cuv. Mc. Evdochia; Sf. Cuv. Domnina"
+ },
+ "03-02": {
+  "saints": "Sf. Sfințit Mc. Teodot, ep. Chiriniei; Sf. Mc. Isihie"
+ },
+ "03-03": {
+  "saints": "Sf. Mc. Eutropie, Cleonic și Vasilisc"
+ },
+ "03-04": {
+  "saints": "Sf. Cuv. Gherasim de la Iordan; Sf. Mc. Pavel și sora sa, Iuliana"
+ },
+ "03-05": {
+  "saints": "Sf. Mc. Conon din Isauria și Conon Grădinarul; Sf. Cuv. Marcu Pustnicul"
+ },
+ "03-06": {
+  "saints": "Sf. 42 de Mc. din Amoreea; Aflarea Sfintei Cruci"
+ },
+ "03-07": {
+  "saints": "Sf. Sfințiți Mc. Vasilevs, Evghenie, Capiton, Eterie, Agatodor și Elpidie, ep. din Herson; † Sf. Sfințit Mc. Efrem, ep. Tomisului",
+  "romanian": [
+   "† Sf. Sfințit Mc. Efrem, ep. Tomisului"
+  ]
+ },
+ "03-08": {
+  "saints": "†) Sf. Pr. Mc. Liviu-Galaction de la Cluj; Sf. Ier. Mărt. Teofilact, ep. Nicomidiei",
+  "romanian": [
+   "†) Sf. Pr. Mc. Liviu-Galaction de la Cluj"
+  ]
+ },
+ "03-09": {
+  "saints": "† Sf. 40 de Mc. din Sevastia",
+  "notes": [
+   "Pomenirea morților - Moșii de primăvară"
+  ],
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "03-10": {
+  "saints": "Sf. Mc. Codrat, Ciprian, Dionisie și cei împreună cu ei"
+ },
+ "03-11": {
+  "saints": "Sf. Ier. Sofronie, patr. Ierusalimului"
+ },
+ "03-12": {
+  "saints": "Sf. Cuv. Teofan Mărt. Sf. Ier. Grigorie Dialogul, ep. Romei; Sf. Cuv. Simeon Noul Teolog"
+ },
+ "03-13": {
+  "saints": "Aducerea moaștelor Sf. Ier. Nichifor, patr. Constantinopolului"
+ },
+ "03-14": {
+  "saints": "Sf. Cuv. Benedict de Nursia; Sf. Sfințit Mc. Alexandru, pr. din Pidna"
+ },
+ "03-15": {
+  "saints": "Sf. Mc. Agapie și Plisie, Timolau"
+ },
+ "03-16": {
+  "saints": "Sf. Mc. Sabin Egipteanul; Sf. Cuv. Hristodul din Patmos"
+ },
+ "03-17": {
+  "saints": "Sf. Cuv. Alexie, omul lui Dumnezeu"
+ },
+ "03-18": {
+  "saints": "Sf. Ier. Chiril, arhiep. Ierusalimului"
+ },
+ "03-19": {
+  "saints": "Sf. Mc. Hrisant și Daria, Claudiu și Ilaria; Sf. Mc. Marian diac."
+ },
+ "03-20": {
+  "saints": "Sf. Cuv. Mc. uciși în M. Sf. Sava cel Sfințit"
+ },
+ "03-21": {
+  "saints": "Sf. Ier. Iacob Mărt.; Sf. Cuv. Serapion"
+ },
+ "03-22": {
+  "saints": "Sf. Sfințit Mc. Vasile, pr. din Ancira; Sf. Mc. Drosida, fiica împ. Traian"
+ },
+ "03-23": {
+  "saints": "Sf. Cuv. Mc. Nicon și cei 199 ucenici ai lui"
+ },
+ "03-24": {
+  "saints": "Înainte-prăznuirea Bunei Vestiri; Sf. Ier. Artemon, ep. Seleuciei",
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "03-25": {
+  "saints": "(†) Buna Vestire (Blagoveștenia)",
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "we": "Dezlegare la pește",
+   "wf": "Dezlegare la pește"
+  },
+  "sunday_prefix": {
+   "apostle": "Evrei II, 11-18",
+   "gospel": "Luca I, 24-38"
+  }
+ },
+ "03-26": {
+  "saints": "Odovania Praznicului Bunei Vestiri; Soborul Sf. Arh. Gavriil; Sf. Mc. Montanus, pr. și soția sa, Maxima; Sf. 26 de Mc. din Goția/Dacia",
+  "romanian": [
+   "Sf. Mc. Montanus, pr. și soția sa, Maxima",
+   "Sf. 26 de Mc. din Goția/Dacia"
+  ]
+ },
+ "03-27": {
+  "saints": "Sf. Mc. Matrona din Tesalonic; Sf. Mc. Filit și Lidia, soția sa, cu cei 4 fii ai lor"
+ },
+ "03-28": {
+  "saints": "Sf. Cuv. Ilarion cel Nou, eg. Pelechitului; Sf. Cuv. Ștefan, făcătorul de minuni"
+ },
+ "03-29": {
+  "saints": "Sf. Sfințiți Mc. Marcu, ep. Aretuselor și Chiril diac.; Sf. Mc. Iona și Varahisie; Sf. Ier. Diadoh, ep. Foticeei"
+ },
+ "03-30": {
+  "saints": "Sf. Cuv. Ioan Scărarul; Sf. Cuv. Euvula, mama Sf. Pantelimon"
+ },
+ "03-31": {
+  "saints": "Sf. Sfințit Mc. Ipatie, ep. Gangrei; Sf. Mc. Veniamin, diac."
+ },
+ "04-01": {
+  "saints": "Sf. Cuv. Maria Egipteanca; Sf. Cuv. Macarie Mărt.; Sf. Mc. Gherontie; Sf. Varsanufie de la Optina"
+ },
+ "04-02": {
+  "saints": "Sf. Cuv. Tit, făcătorul de minuni; Sf. Mc. Amfian și Edesie"
+ },
+ "04-03": {
+  "saints": "Sf. Cuv. Nichita Mărt. și Ilirie"
+ },
+ "04-04": {
+  "saints": "Sf. Cuv. Iosif Imnograful, Gheorghe din Maleon și Zosima"
+ },
+ "04-05": {
+  "saints": "Sf. Mc. Victorin și cei împreună cu el; Sf. Mc. Teodul și Agatopod"
+ },
+ "04-06": {
+  "saints": "† Sf. Sfințit Mc. Irineu, ep. de Sirmium; Sf. Ier. Eutihie, patr. Constantinopolului; Sf. Cuv. Grigorie Sinaitul și Platonida",
+  "romanian": [
+   "† Sf. Sfințit Mc. Irineu, ep. de Sirmium"
+  ]
+ },
+ "04-07": {
+  "saints": "Sf. Mc. Caliopie; Sf. Ier. Gheorghe Mărt., ep. Mitilenei"
+ },
+ "04-08": {
+  "saints": "Sf. Ap. Irodion, Agav, Ruf, Flegon, Asincrit și Ermis; Sf. Ier. Celestin, ep. Romei"
+ },
+ "04-09": {
+  "saints": "Sf. Mc. Eupsihie din Cezareea Capadociei; Sf. Cuv. Vadim"
+ },
+ "04-10": {
+  "saints": "Sf. Mc. Terentie, Pompei, African, Maxim și Dima"
+ },
+ "04-11": {
+  "saints": "†) Sf. Ier. Calinic de la Cernica, ep. Râmnicului; Sf. Sfințit Mc. Antipa, ep. Pergamului Asiei",
+  "romanian": [
+   "†) Sf. Ier. Calinic de la Cernica, ep. Râmnicului"
+  ],
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "04-12": {
+  "saints": "†) Sf. Mc. Sava de la Buzău; Sf. Ier. Vasile Mărt., ep. Pariei",
+  "romanian": [
+   "†) Sf. Mc. Sava de la Buzău"
+  ],
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "04-13": {
+  "saints": "Sf. Sfințit Mc. Artemon; Sf. Mc. Elefterie Persul"
+ },
+ "04-14": {
+  "saints": "†) Sf. Ier. Pahomie de la Gledin, ep. Romanului; Sf. Ier. Martin Mărt., ep. Romei; Sf. Mc. Tomaida",
+  "romanian": [
+   "†) Sf. Ier. Pahomie de la Gledin, ep. Romanului"
+  ],
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "04-15": {
+  "saints": "Sf. Ap. Aristarh, Pud și Trofim; Sf. Mc. Crescent"
+ },
+ "04-16": {
+  "saints": "Sf. Mc. fecioare Agapia, Irina și Hionia"
+ },
+ "04-17": {
+  "saints": "Sf. Sfințit Mc. Simeon, ep. Persiei"
+ },
+ "04-18": {
+  "saints": "Sf. Cuv. Ioan, ucenicul Sf. Grigorie Decapolitul"
+ },
+ "04-19": {
+  "saints": "Sf. Cuv. Ioan de la Lavra Veche; Sf. Sfințit Mc. Pafnutie"
+ },
+ "04-20": {
+  "saints": "† Sf. Ier. Teotim, ep. Tomisului; Sf. Cuv. Teodor Trihina",
+  "romanian": [
+   "† Sf. Ier. Teotim, ep. Tomisului"
+  ],
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "04-21": {
+  "saints": "Sf. Sfințit Mc. Ianuarie, ep. de Benevent; Sf. Mc. Teodor din Perga; Sf. Mc. Alexandra, împ."
+ },
+ "04-22": {
+  "saints": "Sf. Ier. Teodor Sicheotul, ep. Anastasiopolei"
+ },
+ "04-23": {
+  "saints": "†) Sf. M. Mc. Gheorghe, Purtătorul de biruință; Sf. Mc. Valerie",
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  },
+  "sunday_prefix": {
+   "apostle": "Fapte XII, 1-11",
+   "gospel": "Ioan XV, 17-27; XVI, 1-2"
+  }
+ },
+ "04-24": {
+  "saints": "†) Sf. Ier. Mărt. Ilie Iorest, Sava Brancovici și Simion Ștefan, mitr. Transilvaniei; Sf. Ier. Iosif Mărt. din Maramureș; Sf. Mc. Pasicrat și Valentin; Sf. Cuv. Elisabeta",
+  "romanian": [
+   "†) Sf. Ier. Mărt. Ilie Iorest, Sava Brancovici și Simion Ștefan, mitr. Transilvaniei",
+   "Sf. Ier. Iosif Mărt. din Maramureș",
+   "Sf. Mc. Pasicrat și Valentin"
+  ]
+ },
+ "04-25": {
+  "saints": "Sf. Ap. și Ev. Marcu; †) Sf. Cuv. Vasile de la Poiana Mărului",
+  "romanian": [
+   "†) Sf. Cuv. Vasile de la Poiana Mărului"
+  ]
+ },
+ "04-26": {
+  "saints": "Sf. Sfințit Mc. Vasilevs, ep. Amasiei; Sf. Cuv. Glafira; † Sf. Mc. Chiril, Chindeu și Tasie din Axiopolis (Cernavodă)",
+  "romanian": [
+   "† Sf. Mc. Chiril, Chindeu și Tasie din Axiopolis (Cernavodă)"
+  ]
+ },
+ "04-27": {
+  "saints": "Sf. Sfințit Mc. Simeon, ruda Domnului, ep. Ierusalimului"
+ },
+ "04-28": {
+  "saints": "Sf. Ap. Iason și Sosipatru; Sf. Mc. Maxim, Cvintilian și Dadas din Ozovia",
+  "romanian": [
+   "Sf. Mc. Maxim, Cvintilian și Dadas din Ozovia"
+  ]
+ },
+ "04-29": {
+  "saints": "Sf. 9 Mc. din Cizic; Sf. Cuv. Memnon, făcătorul de minuni"
+ },
+ "04-30": {
+  "saints": "Sf. Ap. Iacob al lui Zevedeu, fratele Sf. Ap. și Ev. Ioan; Sf. Ier. Donat, ep. Evriei"
+ },
+ "05-01": {
+  "saints": "Sf. Prooroc Ieremia; Sf. Cuv. Mc. Eftimie, Ignatie și Acachie; Sf. Cuv. Isidora"
+ },
+ "05-02": {
+  "saints": "Aducerea moaștelor Sf. Ier. Atanasie cel Mare în Constantinopol; †) Sf. Ier. Atanasie al III-lea (Patelarie), patr. Constantinopolului; Sf. Matrona din Moscova",
+  "romanian": [
+   "†) Sf. Ier. Atanasie al III-lea (Patelarie), patr. Constantinopolului"
+  ]
+ },
+ "05-03": {
+  "saints": "†) Sf. Cuv. Irodion de la Lainici; Sf. Mc. Timotei și soția sa, Mavra",
+  "romanian": [
+   "†) Sf. Cuv. Irodion de la Lainici"
+  ]
+ },
+ "05-04": {
+  "saints": "† Sf. Cuv. Mavra de pe Ceahlău; Sf. Mc. Pelaghia; Sf. Cuv. Monica, mama Fer. Augustin",
+  "romanian": [
+   "† Sf. Cuv. Mavra de pe Ceahlău"
+  ]
+ },
+ "05-05": {
+  "saints": "† Sf. Cuv. Matrona de la Hurezi; Sf. M. Mc. Irina; Sf. Cuv. Mc. Efrem cel Nou",
+  "romanian": [
+   "† Sf. Cuv. Matrona de la Hurezi"
+  ]
+ },
+ "05-06": {
+  "saints": "Sf. și Dreptul Iov, mult răbdătorul; Sf. Mc. Varvar"
+ },
+ "05-07": {
+  "saints": "Arătarea pe cer a semnului Sf. Cruci în Ierusalim; Sf. Mc. Acachie și Codrat"
+ },
+ "05-08": {
+  "saints": "†) Sf. Ap. și Ev. Ioan Teologul; Sf. Cuv. Arsenie cel Mare"
+ },
+ "05-09": {
+  "saints": "Sf. Prooroc Isaia; Sf. Mc. Hristofor; Aducerea moaștelor Sf. Ier. Nicolae la Bari"
+ },
+ "05-10": {
+  "saints": "Sf. Ap. Simon Zilotul; †) Sf. Cuv. Calistrat de la Timișeni și Vasiova",
+  "romanian": [
+   "†) Sf. Cuv. Calistrat de la Timișeni și Vasiova"
+  ]
+ },
+ "05-11": {
+  "saints": "†) Sf. Cuv. Dionisie Vatopedinul de la Colciu; Sf. Sfințit Mc. Mochie pr.; Sf. Ier. Metodie și Sf. Cuv. Chiril, luminătorii slavilor",
+  "romanian": [
+   "†) Sf. Cuv. Dionisie Vatopedinul de la Colciu"
+  ]
+ },
+ "05-12": {
+  "saints": "†) Sf. Mc. Ioan Valahul; Sf. Ier. Epifanie, arhiep. Ciprului și Gherman, patriarhul Constantinopolului",
+  "romanian": [
+   "†) Sf. Mc. Ioan Valahul"
+  ]
+ },
+ "05-13": {
+  "saints": "Sf. Mc. Glicheria; Sf. Cuv. Serghie Mărt."
+ },
+ "05-14": {
+  "saints": "Sf. Mc. Isidor din Hios; Sf. Sfințit Mc. Terapont, ep. Ciprului"
+ },
+ "05-15": {
+  "saints": "Sf. Cuv. Pahomie cel Mare; †) Sf. Ier. Iacob Putneanul, mitr. Moldovei",
+  "romanian": [
+   "†) Sf. Ier. Iacob Putneanul, mitr. Moldovei"
+  ]
+ },
+ "05-16": {
+  "saints": "Sf. Cuv. Teodor cel Sfințit; †) Sf. Cuv. Sila, Paisie și Natan de la Sihăstria Putnei",
+  "romanian": [
+   "†) Sf. Cuv. Sila, Paisie și Natan de la Sihăstria Putnei"
+  ]
+ },
+ "05-17": {
+  "saints": "Sf. Ap. Andronic și soția sa, Iunia; Sf. Cuv. Nectarie și Teofan"
+ },
+ "05-18": {
+  "saints": "Sf. Mc. Petru, Dionisie și Paulin"
+ },
+ "05-19": {
+  "saints": "Sf. Mc. Patrichie, ep. Prusei"
+ },
+ "05-20": {
+  "saints": "Sf. Mc. Talaleu; Sf. Cuv. Talasie; Sf. Lidia din Filipi"
+ },
+ "05-21": {
+  "saints": "†) Sf. Împ., întocmai cu ap., Constantin și mama sa, Elena",
+  "red": true,
+  "sunday_prefix": {
+   "apostle": "Fapte XXVI, 1; 12-20",
+   "gospel": "Ioan X, 1-9"
+  }
+ },
+ "05-22": {
+  "saints": "Sf. Mc. Vasilisc și Marcel; Sf. Părinți de la Sinodul al II-lea Ecumenic"
+ },
+ "05-23": {
+  "saints": "Sf. Ier. Mihail Mărt., ep. Sinadei; Sf. Mironosiță Maria lui Cleopa"
+ },
+ "05-24": {
+  "saints": "† Sf. Mărt. Blandina de la Iași; Sf. Cuv. Simeon cel din Muntele Minunat",
+  "romanian": [
+   "† Sf. Mărt. Blandina de la Iași"
+  ]
+ },
+ "05-25": {
+  "saints": "† A treia aflare a capului Sf. Ioan, Înaintemergătorul și Botezătorul Domnului"
+ },
+ "05-26": {
+  "saints": "Sf. Ap. Carp și Alfeu; Sf. Mc. Averchie și Elena"
+ },
+ "05-27": {
+  "saints": "Sf. Mc. Iuliu Veteranul; Sf. Sfințiți Mc. Eladie și Terapont, ep. Sardei; Sf. Mărt. Ioan Rusul",
+  "romanian": [
+   "Sf. Mc. Iuliu Veteranul"
+  ]
+ },
+ "05-28": {
+  "saints": "Sf. Ier. Eutihiei, ep. Melitinei și Nichita, ep. Calcedonului"
+ },
+ "05-29": {
+  "saints": "Sf. Mc. Teodosia, fecioara; Sf. Sfințit Mc. Olivian"
+ },
+ "05-30": {
+  "saints": "Sf. Cuv. Isaachie Mărt. și Varlaam"
+ },
+ "05-31": {
+  "saints": "Sf. Mc. Ermie, Eusebiu și Haralambie"
+ },
+ "06-01": {
+  "saints": "Sf. Iustin Martirul și Filosoful și cei impreună cu ei"
+ },
+ "06-02": {
+  "saints": "†) Sf. M. Mc. Ioan cel Nou de la Suceava; Sf. Ier. Nichifor, patr. Constantinopolului",
+  "romanian": [
+   "†) Sf. M. Mc. Ioan cel Nou de la Suceava"
+  ]
+ },
+ "06-03": {
+  "saints": "Sf. Mc. Luchilian, Ipatie și Paula fecioara"
+ },
+ "06-04": {
+  "saints": "†) Sf. Mc. Zotic, Atal, Camasie și Filip de la Niculițel; Sf. Ier. Mitrofan, patr. Constantinopolului; Sf. Mironosițe Maria și Marta, surorile Dreptului Lazăr",
+  "romanian": [
+   "†) Sf. Mc. Zotic, Atal, Camasie și Filip de la Niculițel"
+  ]
+ },
+ "06-05": {
+  "saints": "† Sf. Cuv. Elisabeta de la Pasărea; Sf. Sfințit Mc. Dorotei, ep. Tirului; Sf. Mc. Apolon și Leonid",
+  "romanian": [
+   "† Sf. Cuv. Elisabeta de la Pasărea"
+  ]
+ },
+ "06-06": {
+  "saints": "Sf. Cuv. Ilarion cel Nou, eg. M. Dalmaților; Sf. Cuv. Visarion"
+ },
+ "06-07": {
+  "saints": "Sf. Sfințit Mc. Teodot, ep. Ancirei; Sf. Mc. Zenaida"
+ },
+ "06-08": {
+  "saints": "† Sf. Mc. Nicandru și Marcian; Aducerea moaștelor Sf. M. Mc. Teodor Stratilat",
+  "romanian": [
+   "† Sf. Mc. Nicandru și Marcian"
+  ]
+ },
+ "06-09": {
+  "saints": "Sf. Ier. Chiril, arhiep. Alexandriei"
+ },
+ "06-10": {
+  "saints": "Sf. Mc. Alexandru și Antonina; Sf. Sfințit Mc. Timotei, ep. Prusiei"
+ },
+ "06-11": {
+  "saints": "Sf. Ap. Bartolomeu și Barnaba; Sf. Ier. Luca, arhiep. Crimeei",
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "06-12": {
+  "saints": "Sf. Cuv. Onufrie cel Mare și Petru Atonitul"
+ },
+ "06-13": {
+  "saints": "Sf. Mc. Achilina; Sf. Ier. Trifilie, ep. Lefcosiei din Cipru"
+ },
+ "06-14": {
+  "saints": "Sf. Prooroc Elisei; Sf. Ier. Metodie Mărturisitorul, patriarhul Constantinopolului"
+ },
+ "06-15": {
+  "saints": "Sf. Prooroc Amos; † Sf. Mc. Isihie; Fer. Augustin și Ieronim",
+  "romanian": [
+   "† Sf. Mc. Isihie"
+  ]
+ },
+ "06-16": {
+  "saints": "†) Sf. Ier. Martir Neofit Cretanul, mitropolitul Țării Româneti; Sf. Ier. Tihon, ep. Amatundei",
+  "romanian": [
+   "†) Sf. Ier. Martir Neofit Cretanul, mitropolitul Țării Româneti"
+  ]
+ },
+ "06-17": {
+  "saints": "Sf. Mc. Manuil, Savel, Ismail, Inochentie și Felix"
+ },
+ "06-18": {
+  "saints": "Sf. Mc. Leontie, Ipatie și Teodul; Sf. Cuv. Erasm"
+ },
+ "06-19": {
+  "saints": "Sf. Ap. Iuda, ruda Domnului; Sf. Cuv. Paisie cel Mare",
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "06-20": {
+  "saints": "Sf. Sfințit Mc. Metodie, ep. Patarelor; Sf. Ier. Calist, patr. Constantinopolului; Sf. Nicolae Cabasila"
+ },
+ "06-21": {
+  "saints": "Sf. Mc. Iulian din Tars și Afrodisie"
+ },
+ "06-22": {
+  "saints": "†) Sf. Ier. Grigorie Dascălul, mitr. Țării Românești; Sf. Sfințit Mc. Eusebiu, ep. Samosatei",
+  "romanian": [
+   "†) Sf. Ier. Grigorie Dascălul, mitr. Țării Românești"
+  ],
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "06-23": {
+  "saints": "Sf. Mc. Agripina; Sf. Sfințit Mc. Aristocleu, pr."
+ },
+ "06-24": {
+  "saints": "(†) Nașterea Sf. Proroc Ioan Botezătorul (Sânzienele); † Aducerea moaștelor Sf. M. Mc. Ioan cel Nou de la Suceava; † Sf. Ier. Niceta de Remesiana",
+  "romanian": [
+   "† Sf. Ier. Niceta de Remesiana"
+  ],
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la ulei și vin"
+  },
+  "sunday_prefix": {
+   "apostle": "Romani XIII, 11-14; XIV, 1-4",
+   "gospel": "Luca I, 1-25; 57-68; 76; 80"
+  }
+ },
+ "06-25": {
+  "saints": "Sf. M. Mc. Fevronia; Sf. Mc. Orentie și frații săi; Sf. Mc. Livia"
+ },
+ "06-26": {
+  "saints": "Sf. Cuv. David din Tesalonic; Sf. Ier. Ioan, ep. Goției"
+ },
+ "06-27": {
+  "saints": "Sf. Cuv. Samson, primitorul de străini; Sf. Mironosiță Ioana"
+ },
+ "06-28": {
+  "saints": "Aducerea moaștelor Sf. Mc. Doctori fără de arginți Chir și Ioan; Sf. Mc. Papias"
+ },
+ "06-29": {
+  "saints": "(†) Sf. Ap. Petru și Pavel",
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la pește"
+  },
+  "sunday_prefix": {
+   "apostle": "II Corinteni XI, 21; XII, 9",
+   "gospel": "Matei XVI, 13-19"
+  }
+ },
+ "06-30": {
+  "saints": "† Soborul Sf. 12 Ap.; †) Sf. Ier. Ghelasie de la Râmeț",
+  "romanian": [
+   "†) Sf. Ier. Ghelasie de la Râmeț"
+  ],
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la pește"
+  }
+ },
+ "07-01": {
+  "saints": "†) Sf. Ier. Leontie de la Rădăuți; Sf. Mc. Doctori fără de arginți, Cosma și Damian, cei din Roma",
+  "romanian": [
+   "†) Sf. Ier. Leontie de la Rădăuți"
+  ]
+ },
+ "07-02": {
+  "saints": "Așezarea veșmântului Născătoarei de Dumnezeu în biserica Vlaherne; †) Sf. Voievod Ștefan cel Mare; Sf. Ier. Iuvenalie, patr. Ierusalimului; Sf. Ier. Ioan Maximovici",
+  "romanian": [
+   "†) Sf. Voievod Ștefan cel Mare"
+  ]
+ },
+ "07-03": {
+  "saints": "Sf. Mc. Iachint; Sf. Ier. Anatolie, patr. Constantinopolului"
+ },
+ "07-04": {
+  "saints": "† Sf. Olimpia de la Farcașa.; Sf. Ier. Andrei, arhiep. Cretei; Sf. Cuv. Marta",
+  "romanian": [
+   "† Sf. Olimpia de la Farcașa."
+  ]
+ },
+ "07-05": {
+  "saints": "† Sf. Cuv. Atanasie Atonitul; Sf. Cuv. Lampadie"
+ },
+ "07-06": {
+  "saints": "†) Sf. Cuv. Dometie cel Milostiv de la Râmeț și mama sa, Sf. Cuv. Filotimia; Sf. Cuv. Sisoe cel Mare; Sf. Mc. Lucia din Roma; Sf. Mc. Marius, soția sa, Marta, și fiii lor, Audifaciu și Avacum",
+  "romanian": [
+   "†) Sf. Cuv. Dometie cel Milostiv de la Râmeț și mama sa, Sf. Cuv. Filotimia"
+  ]
+ },
+ "07-07": {
+  "saints": "†) Sf. M. Mc. Chiriachi; Sf. Cuv. Toma din Maleon; Sf. Mc. Evanghel"
+ },
+ "07-08": {
+  "saints": "Sf. M. Mc. Procopie și mama sa, Teodosia; †) Sf. Mc. Epictet preotul și Astion monahul",
+  "romanian": [
+   "†) Sf. Mc. Epictet preotul și Astion monahul"
+  ]
+ },
+ "07-09": {
+  "saints": "†) Cinstirea Ic. Maicii Domnului „Îndrumătoarea” de la M. Neamț; Sf. Sfințiți Mc. Pangratie, ep. Tavromeniei",
+  "romanian": [
+   "†) Cinstirea Ic. Maicii Domnului „Îndrumătoarea” de la M. Neamț"
+  ]
+ },
+ "07-10": {
+  "saints": "Sf. 45 de Mc. din Nicopolea Armeniei"
+ },
+ "07-11": {
+  "saints": "Sf. M. Mc. Eufimia; Sf. Olga, cea întocmai cu Ap. și luminătoarea Rusiei"
+ },
+ "07-12": {
+  "saints": "†) Cinstirea Ic. Maicii Domnului „Prodromița” de la Muntele Athos; Sf. Mc. Proclu și Ilarie; Cuv. Mihai Maleinul; Sf. Veronica; Sf. Cuv. Paisie Aghioritul",
+  "romanian": [
+   "†) Cinstirea Ic. Maicii Domnului „Prodromița” de la Muntele Athos"
+  ]
+ },
+ "07-13": {
+  "saints": "† Aducerea moaștelor Sfântului Cuvios Dimitrie cel Nou la București; Soborul Sf. Arh. Gavriil; Sf. Cuv. Ștefan Savaitul; Sf. Mc. Maria din Persia; Sf. Cuv. Sara",
+  "romanian": [
+   "† Aducerea moaștelor Sfântului Cuvios Dimitrie cel Nou la București"
+  ]
+ },
+ "07-14": {
+  "saints": "Sf. Ap. Achila; Sf. Mc. Iust și Iraclie; Sf. Cuv. Nicodim Aghioritul"
+ },
+ "07-15": {
+  "saints": "Sf. Mc. Chiric și Iulita; Sf. Vladimir, luminătorul Rusiei"
+ },
+ "07-16": {
+  "saints": "Sf. Sfințit Mc. Atinoghen cu cei 10 ucenici ai săi; Sf. Mc. Iulia"
+ },
+ "07-17": {
+  "saints": "Sf. M. Mc. Marina; Sf. Ier. Eufrasie, ep. Ionopolei",
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "07-18": {
+  "saints": "†) Sf. Mc. Emilian de la Durostorum (Ostrov); Sf. Cuv. Pamvo",
+  "romanian": [
+   "†) Sf. Mc. Emilian de la Durostorum (Ostrov)"
+  ]
+ },
+ "07-19": {
+  "saints": "Sf. Cuv. Macrina, sora Sf. Vasile cel Mare; Sf. Cuv. Die; Aflarea moaștelor Sf. Cuv. Serafim de Sarov"
+ },
+ "07-20": {
+  "saints": "†) Sf. Slăvitul Prooroc Ilie Tesviteanul",
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  },
+  "sunday_prefix": {
+   "apostle": "Iacov V, 10-20",
+   "gospel": "Luca IV, 22-30"
+  }
+ },
+ "07-21": {
+  "saints": "Sf. Cuv. Simeon și Ioan Pustnicul; Sf. Prooroc Iezechiel; †) Sf. Cuv. Rafail și Partenie, de la Agapia Veche",
+  "romanian": [
+   "†) Sf. Cuv. Rafail și Partenie, de la Agapia Veche"
+  ]
+ },
+ "07-22": {
+  "saints": "†) Sf. Pr. Mărt. Ilie Lăcătușu; Sf. Mironosiță, întocmai cu Ap., Maria Magdalena; Sf. Cuv. Mc. Marcela",
+  "romanian": [
+   "†) Sf. Pr. Mărt. Ilie Lăcătușu"
+  ]
+ },
+ "07-23": {
+  "saints": "Aducerea Moaștelor Sf. Sfințit Mc. Foca; Sf. Mc. Apolinarie, Vitalie și Valeria"
+ },
+ "07-24": {
+  "saints": "Sf. M. Mc. Hristina; Sf. Mc. Ermoghen"
+ },
+ "07-25": {
+  "saints": "Adormirea Sf. Ana, mama Preasfintei Născătoare de Dumnezeu; Sf. Părinți de la Sinodul al V-lea Ecumenic; Sf. Cuv. Eupraxia și Olimpiada"
+ },
+ "07-26": {
+  "saints": "Sf. Sfințit Mc. Ermolae; Sf. Mc. Cuv. Paraschevi din Roma; †) Sf. Cuv. Ioanichie cel Nou de la Muscel (Argeș)",
+  "romanian": [
+   "†) Sf. Cuv. Ioanichie cel Nou de la Muscel (Argeș)"
+  ]
+ },
+ "07-27": {
+  "saints": "† Sf. M. Mc. și Tămăduitor Pantelimon",
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "07-28": {
+  "saints": "Sf. Ap. și Diac. Prohor, Nicanor, Timon și Parmena; Sf. Cuv. Pavel de la Xiropotamu"
+ },
+ "07-29": {
+  "saints": "Sf. Mc. Calinic, Veniamin și Mamant; Sf. Mc. Teodota cu fiii săi"
+ },
+ "07-30": {
+  "saints": "Sf. Ap. Sila, Silvan, Crescent, Epenet și Andronic; Sf. Mc. Valentin, ep. Umbriei"
+ },
+ "07-31": {
+  "saints": "Înainte-prăznuirea scoaterii Sf. Cruci; Sf. și Dreptul Evdochim; Sf. și Dreptul Iosif din Arimateea"
+ },
+ "08-01": {
+  "saints": "Scoaterea Sf. Cruci; Sf. 7 frați Mc. Macabei",
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "08-02": {
+  "saints": "Aducerea moaștelor Sf. Întâi Mc. și Arhid. Ștefan; Dreptul Gamaliel; Binecredinciosul Împ. Iustinian cel Mare"
+ },
+ "08-03": {
+  "saints": "†) Sf. Cuv. Mărt. Iraclie din Basarabia; Sf. Cuv. Isaachie, Dalmat și Faust; Sf. Mironosiță Salomeea; Sf. Cuv. Teodora din Tesalonic",
+  "romanian": [
+   "†) Sf. Cuv. Mărt. Iraclie din Basarabia"
+  ]
+ },
+ "08-04": {
+  "saints": "Sf. 7 tineri din Efes; Sf. Mc. Tatuil"
+ },
+ "08-05": {
+  "saints": "Înainte-prăznuirea Schimbării la Față a Domnului; †) Sf. Cuv. Ioan Iacob de la Neamț; Sf. Mc. Evsignie; Sf. Nona, mama Sf. Ier. Grigorie Teologul; Sf. Ier. Fabian, ep. Romei",
+  "romanian": [
+   "†) Sf. Cuv. Ioan Iacob de la Neamț"
+  ]
+ },
+ "08-06": {
+  "saints": "(†) Schimbarea la Față a Domnului (Pobrejenia)",
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "we": "Dezlegare la pește",
+   "wf": "Dezlegare la pește"
+  }
+ },
+ "08-07": {
+  "saints": "†) Sf. Cuv. Teodora de la Sihla; †) Sf. Cuv. Pafnutie - Pârvu Zugravul; Sf. Cuv. Mc. Dometie Persul; Sf. Sfințit Mc. Narcis, arhep. Ierusalimului; Sf. Cuv. Nicanor",
+  "romanian": [
+   "†) Sf. Cuv. Teodora de la Sihla",
+   "†) Sf. Cuv. Pafnutie - Pârvu Zugravul"
+  ],
+  "red": true,
+  "sunday_prefix": {
+   "apostle": "Efeseni II, 4-10",
+   "gospel": "Marcu IX, 2-9"
+  }
+ },
+ "08-08": {
+  "saints": "†) Sf. Pr. Mc. Alexandru din Basarabia; Sf. Ier. Emilian Mărt., ep. Cizicului și Miron, ep. Cretei",
+  "romanian": [
+   "†) Sf. Pr. Mc. Alexandru din Basarabia"
+  ]
+ },
+ "08-09": {
+  "saints": "Sf. Ap. Matia; Sf. 10 Mc. Mărt. pentru icoana lui Hristos"
+ },
+ "08-10": {
+  "saints": "Sf. Mc. Laurențiu, arhid.; Sf. Sfințit Mc. Xist, ep. Romei; Sf. Mc. Ipolit"
+ },
+ "08-11": {
+  "saints": "†) Sf. Ier. Nifon, patr. Constantinopolului; Sf. M. Mc. Evplu, arhid.",
+  "romanian": [
+   "†) Sf. Ier. Nifon, patr. Constantinopolului"
+  ]
+ },
+ "08-12": {
+  "saints": "Sf. Mc. Fotie și Anichit"
+ },
+ "08-13": {
+  "saints": "Odovania praznicului Schimbării la Față a Domnului; Mutarea moaștelor Sf. Cuv. Maxim Mărt.; Sf. Cuv. Dorotei și Dositei"
+ },
+ "08-14": {
+  "saints": "Înainte-prăznuirea Adormirii Maicii Domnului; Sf. Prooroc Miheia",
+  "notes": [
+   "Prohodul M. D."
+  ]
+ },
+ "08-15": {
+  "saints": "(†) Adormirea Maicii Domnului",
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la pește"
+  },
+  "no_weddings": true,
+  "sunday_prefix": {
+   "apostle": "Filipeni II, 5-11",
+   "gospel": "Luca X, 38-42; XI, 27-28"
+  }
+ },
+ "08-16": {
+  "saints": "Aducerea Sf. Mahrame a Domnului din Edesa la Constantinopol; †) Sf. Martiri Brâncoveni: Constantin Voievod cu cei patru fii ai săi: Constantin, Ștefan, Radu și Matei, și sfetnicul Ianache; Sf. Doamnă Maria Brâncovenu; †) Sf. Cuv. Iosif de la Văratec; Sf. Mc. Diomid",
+  "romanian": [
+   "†) Sf. Martiri Brâncoveni: Constantin Voievod cu cei patru fii ai săi: Constantin, Ștefan, Radu și Matei, și sfetnicul Ianache",
+   "Sf. Doamnă Maria Brâncovenu",
+   "†) Sf. Cuv. Iosif de la Văratec"
+  ]
+ },
+ "08-17": {
+  "saints": "†) Sf. Gheorghe Pelerinul; † Sf. Cuv. Nazaria, Olimpiada, Elisabeta (Safta) Brâncoveanu, de la Văratec; Sf. Mc. Miron pr., Straton și Ciprian",
+  "romanian": [
+   "†) Sf. Gheorghe Pelerinul",
+   "† Sf. Cuv. Nazaria, Olimpiada, Elisabeta (Safta) Brâncoveanu, de la Văratec"
+  ]
+ },
+ "08-18": {
+  "saints": "Sf. Mc. Flor și Lavru"
+ },
+ "08-19": {
+  "saints": "Sf. Mc. Andrei Stratilat, Timotei, Agapie și Tecla"
+ },
+ "08-20": {
+  "saints": "Sf. Prooroc Samuel; Sf. Mc. Sever, Eliodor și Teoharie"
+ },
+ "08-21": {
+  "saints": "Sf. Ap. Tadeu; Sf. Mc. Vasa, cu fiii ei; † Sf. Mc. Donat diac., Romul pr., Silvan diac. și Venust",
+  "romanian": [
+   "† Sf. Mc. Donat diac., Romul pr., Silvan diac. și Venust"
+  ]
+ },
+ "08-22": {
+  "saints": "Sf. Mc. Agatonic și cei îmtruna cu ei"
+ },
+ "08-23": {
+  "saints": "Odovania praznicului Adormirii Maicii Domnului; † Sf. Mc. Lup; Sf. Sfințit Mc. Irineu, ep. de Lugdunum (Lyon)",
+  "romanian": [
+   "† Sf. Mc. Lup"
+  ]
+ },
+ "08-24": {
+  "saints": "Sf. Sfințit Mc. Eutihie; Sf. Mc. Tation"
+ },
+ "08-25": {
+  "saints": "Aducerea moaștelor Sf. Ap. Bartolomeu; Sf. Ap. Tit"
+ },
+ "08-26": {
+  "saints": "Sf. Mc. Adrian și Natalia, soția sa"
+ },
+ "08-27": {
+  "saints": "Sf. Cuv. Pimen cel Mare; Sf. Mc. Fanurie; Sf. Ier. Osie, ep. Cordobei"
+ },
+ "08-28": {
+  "saints": "Sf. Cuv. Moise Etiopianul; Dreptul Iezechia"
+ },
+ "08-29": {
+  "saints": "(†) Tăierea Capului Sf. Prooroc Ioan Botezătorul; Fapte XIII, 25-33",
+  "red": true,
+  "no_weddings": true,
+  "sunday_prefix": {
+   "apostle": "Marcu VI, 14-30"
+  }
+ },
+ "08-30": {
+  "saints": "†) Sf. Ier. Varlaam, mitr. Moldovei și Ioan de la Râșca și Secu, ep. Romanului; Sf. Ier. Ioan, Pavel cel Nou și Alexandru, patr. Constantinopolului",
+  "romanian": [
+   "†) Sf. Ier. Varlaam, mitr. Moldovei și Ioan de la Râșca și Secu, ep. Romanului"
+  ]
+ },
+ "08-31": {
+  "saints": "Așezarea în raclă a cinstitului brâu al Maicii Domnului; †) Sf. Cuv. Macarie Protopsaltul",
+  "romanian": [
+   "†) Sf. Cuv. Macarie Protopsaltul"
+  ]
+ },
+ "09-01": {
+  "saints": "† Începutul anului bisericesc; † Sf. Cuv. Dionisie Exiguul (cel Smerit); Sf. Cuv. Simeon Stâlpnicul; Sf. 40 de Mucenițe din Adrianopol; Dreptul Iosua",
+  "romanian": [
+   "† Sf. Cuv. Dionisie Exiguul (cel Smerit)"
+  ],
+  "notes": [
+   "Tedeum - Anul Nou bisericesc"
+  ]
+ },
+ "09-02": {
+  "saints": "Sf. Mc. Mamant; Sf. Ier. Ioan Postitorul, patr. Constantinopolului"
+ },
+ "09-03": {
+  "saints": "Sf. Sfințit Mc. Antim, ep. Nicomidiei; Sf. Cuv. Teoctist din Palestina; †) Sf. Cuv. Neofit și Meletie de la M-rea. Stânișoara",
+  "romanian": [
+   "†) Sf. Cuv. Neofit și Meletie de la M-rea. Stânișoara"
+  ]
+ },
+ "09-04": {
+  "saints": "Sf. Sfințit Mc. Vavila, ep. Antiohiei; Sf. Prooroc Moise; Sf. Mc. Petroniu"
+ },
+ "09-05": {
+  "saints": "Sf. Prooroc Zaharia și Dreapta Elisabeta, părinții Sf. Ioan Botezătorul"
+ },
+ "09-06": {
+  "saints": "Pomenirea minunii Sf. Arh. Mihail în Colose; Sf. Mc. Eudoxie"
+ },
+ "09-07": {
+  "saints": "Înainte-prăznuirea Nașterii Maicii Domnului; Sf. Mc. Sozont; Sf. Cuv. Casiana Imnografa; †) Sf. Cuv. Simeon și Amfilohie de la Pângărați",
+  "no_weddings": true
+ },
+ "09-08": {
+  "saints": "(†) Nașterea Maicii Domnului",
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la pește"
+  },
+  "no_weddings": true,
+  "sunday_prefix": {
+   "apostle": "Filipeni II, 5-11",
+   "gospel": "Luca X, 33-42; XI, 27-28"
+  }
+ },
+ "09-09": {
+  "saints": "Sf. și Drepții dumnezeiești Părinți Ioachim și Ana; †) Sf. Cuv. Chiriac de la Tazlău; †) Sf. Cuv. Onufrie de la Vorona; Sf. Părinți de la Sinodul al III-lea Ecumenic; Sf. Mc. Severian",
+  "romanian": [
+   "†) Sf. Cuv. Chiriac de la Tazlău",
+   "†) Sf. Cuv. Onufrie de la Vorona"
+  ]
+ },
+ "09-10": {
+  "saints": "Sf. Mc. Minodora, Mitrodora și Nimfodora; Sf. Împ. Pulheria"
+ },
+ "09-11": {
+  "saints": "Sf. Cuv. Teodora din Alexandria; Sf. Cuv. Eufrosin Bucătarul"
+ },
+ "09-12": {
+  "saints": "Odovania Praznicului Nașterii Maicii Domnului; Sf. Mc. Avtonom, Macedonie și Teodul"
+ },
+ "09-13": {
+  "saints": "Înainte-prăznuirea Înălțării Sf. Cruci; † Târnosirea Bisericii Învierii din Ierusalim; Sf. Sfințiți Mc. Corneliu Sutașul și Ciprian, ep. Cartaginei; †) Sf. Cuv. Ioan de la Prislop; † Sf. Mc. din Dobrogea: Macrobie, Gordian, Ilie, Zotic, Lucian și Valerian",
+  "romanian": [
+   "†) Sf. Cuv. Ioan de la Prislop",
+   "† Sf. Mc. din Dobrogea: Macrobie, Gordian, Ilie, Zotic, Lucian și Valerian"
+  ]
+ },
+ "09-14": {
+  "saints": "(†) Înălțarea Sfintei Cruci; Sf. Nou Mc. Macarie, ucenicul patr. Nifon",
+  "red": true,
+  "no_weddings": true
+ },
+ "09-15": {
+  "saints": "†) Sf. Ier. Iosif cel Nou de la Partoș, mitr. Banatului; † Sf. M. Mc. Nichita; † Sf. Ier. Visarion, arhiep. Larisei",
+  "romanian": [
+   "†) Sf. Ier. Iosif cel Nou de la Partoș, mitr. Banatului",
+   "† Sf. M. Mc. Nichita"
+  ]
+ },
+ "09-16": {
+  "saints": "†) Sf. Cuv. Mărt. Sofian de la Antim; Sf. M. Mc. Eufimia; Sf. Mc. Meletina și Ludmila",
+  "romanian": [
+   "†) Sf. Cuv. Mărt. Sofian de la Antim"
+  ]
+ },
+ "09-17": {
+  "saints": "†) Sf. Ier. Dionisie, ep. Cetății Albe - Ismail; Sf. Mc. Sofia și fiicele sale: Pistis, Elpis și Agapi",
+  "romanian": [
+   "†) Sf. Ier. Dionisie, ep. Cetății Albe - Ismail"
+  ]
+ },
+ "09-18": {
+  "saints": "†) Sf. Pr. Mc. Ilarion Felea; Sf. Ier. Eumenie, ep. Gortinei; Sf. Mc. Ariadna",
+  "romanian": [
+   "†) Sf. Pr. Mc. Ilarion Felea"
+  ]
+ },
+ "09-19": {
+  "saints": "Sf. Mc. Trofim, Savatie și Dorimedont"
+ },
+ "09-20": {
+  "saints": "Sf. M. Mc. Eustatie și soția sa, Teopista, cu cei doi fii ai lor: Agapie și Teopist"
+ },
+ "09-21": {
+  "saints": "Odovania Praznicului Înălțării Sfintei Cruci; Sf. Ap. Codrat; Sf. Prooroc Iona"
+ },
+ "09-22": {
+  "saints": "†) Sf. Ier. Mc. Teodosie de la M. Brazi, mitr. Moldovei; Sf. Sfințit Mc. Foca, ep. de Sinope",
+  "romanian": [
+   "†) Sf. Ier. Mc. Teodosie de la M. Brazi, mitr. Moldovei"
+  ]
+ },
+ "09-23": {
+  "saints": "Zămislirea Sf. Prooroc Ioan Botezătorul; Sf. Cuv. Xantipa și Polixenia"
+ },
+ "09-24": {
+  "saints": "Sf. întâia Mc., întocmai cu ap., Tecla; Sf. Cuv. Siluan Athonitul"
+ },
+ "09-25": {
+  "saints": "Sf. Cuv. Eufrosina; Sf. Cuv. Pafnutie Egipteanul; Sf. Cuv. Serghie de la Radonej"
+ },
+ "09-26": {
+  "saints": "†) Mutarea Sf. Ap. și Ev. Ioan; †) Sf. Voievod Neagoe Basarab; Sf. Cuv. Platonida de la Argeș (fosta Despina Milița, soția voievodului); Dreptul Ghedeon",
+  "romanian": [
+   "†) Sf. Voievod Neagoe Basarab",
+   "Sf. Cuv. Platonida de la Argeș (fosta Despina Milița, soția voievodului)"
+  ],
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "09-27": {
+  "saints": "†) Sf. Ier. Martir Antim Ivireanul, mitr. Țării Românești; Sf. Mc. Calistrat și Epiharia",
+  "romanian": [
+   "†) Sf. Ier. Martir Antim Ivireanul, mitr. Țării Românești"
+  ]
+ },
+ "09-28": {
+  "saints": "† Sf. Cuv. Hariton Mărt.; Sf. Prooroc Baruh; Sf. Neofit Zăvorâtul din Cipru"
+ },
+ "09-29": {
+  "saints": "Sf. Cuv. Chiriac Sihastrul; Sf. Mc. Petronia"
+ },
+ "09-30": {
+  "saints": "Sf. Ier. Grigorie Luminătorul, arhiep. Armeniei; Sf. Mc. Ripsimia și Gaiani",
+  "no_weddings": true
+ },
+ "10-01": {
+  "saints": "(†) Acoperământul Maicii Domnului; Sf. Ap. Anania; Sf. Cuv. Roman Melodul; †) Sf. Cuv. Chiriac și Iosif de la Bisericani",
+  "romanian": [
+   "†) Sf. Cuv. Chiriac și Iosif de la Bisericani"
+  ],
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la pește"
+  },
+  "no_weddings": true,
+  "sunday_prefix": {
+   "apostle": "Filipeni II, 5-11; Fapte IX, 10-19",
+   "gospel": "Luca X, 33-42; XI, 27-28; Luca X, 16-21"
+  }
+ },
+ "10-02": {
+  "saints": "Sf. Sfințit Mc. Ciprian; Sf. Mc. Iustina fecioara"
+ },
+ "10-03": {
+  "saints": "Sf. Sfințit Mc. Dionisie Areopagitul; Sf. Mc. Teoctist"
+ },
+ "10-04": {
+  "saints": "†) Sf. Pr. Mărt. Dumitru Stăniloae; Sf. Sfințit Mc. Ierotei, ep. Atenei",
+  "romanian": [
+   "†) Sf. Pr. Mărt. Dumitru Stăniloae"
+  ]
+ },
+ "10-05": {
+  "saints": "Sf. Mc. Haritina; †) Sf. Cuv. Misail și Daniil de la Mănăstirea Turnu",
+  "romanian": [
+   "†) Sf. Cuv. Misail și Daniil de la Mănăstirea Turnu"
+  ]
+ },
+ "10-06": {
+  "saints": "Sf. Ap. Toma; Sf. Mc. Erotiida"
+ },
+ "10-07": {
+  "saints": "† Sf. M. Mc. Serghie și Vah; Sf. Mc. Iulian pr., Chesarie diac. și Polihronie"
+ },
+ "10-08": {
+  "saints": "Sf. Cuv. Pelaghia și Taisia"
+ },
+ "10-09": {
+  "saints": "Sf. Ap. Iacov al lui Alfeu; Sf. Cuv. Atanasia, Andronic și Anastasia"
+ },
+ "10-10": {
+  "saints": "Sf. Mc. Evlampie și sora sa, Evlampia; Sf. Cuv. Vasian și Teofil Mărt."
+ },
+ "10-11": {
+  "saints": "Sf. Ap. Filip, unul din cei 7 diac.; Sf. Ier. Teofan Mărt., ep. Niceei"
+ },
+ "10-12": {
+  "saints": "Sf. Mc. Prov, Tarah și Andronic; Sf. Ier. Cosma, ep. Maiumei"
+ },
+ "10-13": {
+  "saints": "† Aducerea moaștelor Sf. Ap. Andrei la Iași; Sf. Mc. Carp, Papil, Agatodor, Agatonica și Florentie",
+  "romanian": [
+   "† Aducerea moaștelor Sf. Ap. Andrei la Iași"
+  ]
+ },
+ "10-14": {
+  "saints": "†) Sf. Cuv. Parascheva de la Iași; Sf. Mc. Nazarie, Ghervasie, Protasie și Chelsie",
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  },
+  "sunday_prefix": {
+   "apostle": "I Corinteni IX, 2-12; II Timotei III, 10-15",
+   "gospel": "Luca VII, 36-50"
+  }
+ },
+ "10-15": {
+  "saints": "† Sf. Magdalena de la Mălainița; Sf. Mc. Luchian, pr. din Antiohia",
+  "romanian": [
+   "† Sf. Magdalena de la Mălainița"
+  ]
+ },
+ "10-16": {
+  "saints": "Sf. Mc. Longhin Sutașul"
+ },
+ "10-17": {
+  "saints": "Sf. Prooroc Oseea; Sf. Cuv. Mc. Andrei Criteanul"
+ },
+ "10-18": {
+  "saints": "Sf. Ap. și Ev. Luca; Sf. Mc. Marin cel Bătrân"
+ },
+ "10-19": {
+  "saints": "Sf. Prooroc Ioil; Sf. Mc. Uar; Sf. Cleopatra; Sf. Cuv. Ioan de la Rila"
+ },
+ "10-20": {
+  "saints": "Sf. M. Mc. Artemie; Sf. Gherasim din Chefalonia"
+ },
+ "10-21": {
+  "saints": "†) Sf. Cuv. Mărt. Visarion și Sofronie; Sf. Mc. Oprea; Sf. Pr. Mărt. Ioan din Galeș și Moise Măcinic din Sibiel; Sf. Cuv. Ilarion cel Mare",
+  "romanian": [
+   "†) Sf. Cuv. Mărt. Visarion și Sofronie",
+   "Sf. Mc. Oprea",
+   "Sf. Pr. Mărt. Ioan din Galeș și Moise Măcinic din Sibiel"
+  ]
+ },
+ "10-22": {
+  "saints": "Sf. Ier. Averchie, ep. Ierapolei; Sf. 7 tineri din Efes"
+ },
+ "10-23": {
+  "saints": "Sf. Ap. Iacob, ruda Domnului, întâiul ep. al Ierusalimului; †) Sf. Pr. Mc. Constantin Sârbu; Sf. Cuv. Macarie Romanul",
+  "romanian": [
+   "†) Sf. Pr. Mc. Constantin Sârbu"
+  ]
+ },
+ "10-24": {
+  "saints": "Sf. M. Mc. Areta; Sf. Mc. Marcu, Sotirih și Valentin"
+ },
+ "10-25": {
+  "saints": "Sf. Mc. Marcian și Martirie; Sf. Tavita"
+ },
+ "10-26": {
+  "saints": "†) Sf. M. Mc. Dimitrie, Izvorâtorul de mir",
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  },
+  "sunday_prefix": {
+   "apostle": "II Timotei II, 1-10; Evrei XII, 11-13; 25-27",
+   "gospel": "Matei VIII, 23-27; Ioan XV, 17-27; XVI, 1-2"
+  }
+ },
+ "10-27": {
+  "saints": "†) Sf. Cuv. Dimitrie cel Nou, Ocrotitorul Bucureștilor, ale cărui moaște se află în Catedrala Patriarhală; Sf. Mc. Nestor",
+  "red": true,
+  "sunday_prefix": {
+   "apostle": "Fapte XII, 1-11; Efeseni IV, 7-13",
+   "gospel": "Matei X, 16-22"
+  }
+ },
+ "10-28": {
+  "saints": "† Sf. Ier. Iachint, mitr. Țării Românești; †) Sf. Cuv. Teofana Basarab; Sf. Mc. Terentie, soția sa Neonila și cei 7 fii ai lor: Nita, Sarvil, Ierax, Teodul, Fota, Vilie si Evnichi; Sf. Ier. Firmilian, ep. Cezareei Capadociei",
+  "romanian": [
+   "† Sf. Ier. Iachint, mitr. Țării Românești",
+   "†) Sf. Cuv. Teofana Basarab"
+  ]
+ },
+ "10-29": {
+  "saints": "Sf. M. Mc. Anastasia Romana; Sf. Cuv. Avramie și Maria, nepoata sa"
+ },
+ "10-30": {
+  "saints": "Sf. Sfințit Mc. Zenovie, ep. Ciliciei și sora sa, Zenovia; Sf. Ap. Cleopa"
+ },
+ "10-31": {
+  "saints": "Sf. Ap. Apelie, Stahie, Amplie, Urban, Aristobul și Narcis; Sf. Mc. Epimah"
+ },
+ "11-01": {
+  "saints": "Sf. doctori fără de arginți Cosma și Damian, cei din Asia"
+ },
+ "11-02": {
+  "saints": "Sf. Mc. Achindin, Pigasie, Aftonie, Elpifidor și Anempodist"
+ },
+ "11-03": {
+  "saints": "Sf. Mc. Achepsima ep., Iosif pr. și Aitala diac.; Așezarea moaștelor Sf. M. Mc. Gheorghe în Lida"
+ },
+ "11-04": {
+  "saints": "Sf. Cuv. Ioanichie cel Mare; Sf. Mc. Nicandru și Ermeu; Sf. Cuv.Gheorghe Mărt. din Drama"
+ },
+ "11-05": {
+  "saints": "Sf. Mc. Galaction și Epistimia"
+ },
+ "11-06": {
+  "saints": "Sf. Pavel Mărt., patr. Constantinopolului; Sf. Cuv. Luca din Sicilia"
+ },
+ "11-07": {
+  "saints": "Sf. 33 de Mc. din Melitina; Sf. Cuv. Lazăr din Muntele Galisiei"
+ },
+ "11-08": {
+  "saints": "†) Soborul Sf. Arh. Mihail și Gavriil și al tuturor cereștilor puteri",
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  },
+  "sunday_prefix": {
+   "apostle": "Evrei II, 2-10",
+   "gospel": "Luca X, 16-21"
+  }
+ },
+ "11-09": {
+  "saints": "†) Sf. Ier. Nectarie Taumaturgul de la Eghina; Sf. Mc. Claudiu, Castor, Sempronian și Nicostrat; Sf. Mc. Onisifor și Porfirie; Sf. Cuv. Matrona",
+  "romanian": [
+   "Sf. Mc. Claudiu, Castor, Sempronian și Nicostrat"
+  ]
+ },
+ "11-10": {
+  "saints": "Sf. Ap. Olimp, Rodion, Sosipatru, Erast, Terțiu și Cvart; †) Sf. Cuv. Mc. Visarion de la Lainici; Sf. Mc. Orest",
+  "romanian": [
+   "†) Sf. Cuv. Mc. Visarion de la Lainici"
+  ]
+ },
+ "11-11": {
+  "saints": "† Sf. M. Mc. Mina; Sf. Mc. Victor, Vichentie și Ștefanida; Sf. Cuv. Teodor Studitul"
+ },
+ "11-12": {
+  "saints": "Sf. Ier. Ioan cel Milostiv, patr. Alexandriei; †) Sf. Martiri și Mărt. Năsăudeni: Atanasie Todoran din Bichigiu, Vasile din Mocod, Grigorie din Zagra și Vasile din Telciu; Sf. Cuv. Nil Pustnicul",
+  "romanian": [
+   "†) Sf. Martiri și Mărt. Năsăudeni: Atanasie Todoran din Bichigiu, Vasile din Mocod, Grigorie din Zagra și Vasile din Telciu"
+  ]
+ },
+ "11-13": {
+  "saints": "†) Sf. Ier. Ioan Gură de Aur, arhiep. Constantinopolului și mama sa, Sf. Antuza",
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "11-14": {
+  "saints": "† Sf. Ap. Filip unul dintre cei 12 Apostoli; Sf. Ier. Grigorie Palama, arhiep. Tesalonicului",
+  "romanian": [
+   "† Sf. Ap. Filip unul dintre cei 12 Apostoli"
+  ],
+  "fast": {
+   "wd": "Dezlegare la ulei și vin",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "11-15": {
+  "saints": "†) Sf. Cuv. Paisie de la Neamț; Sf. Mc. și Mărt. Gurie, Samona și Aviv, diac.",
+  "romanian": [
+   "†) Sf. Cuv. Paisie de la Neamț"
+  ]
+ },
+ "11-16": {
+  "saints": "Sf. Ap. și Ev. Matei"
+ },
+ "11-17": {
+  "saints": "Sf. Ier. Grigorie Taumaturgul, ep. Neocezareei Pontului și Ghenadiei, patr. Constantinopolului; Sf. Cuv. Lazăr Zugravul"
+ },
+ "11-18": {
+  "saints": "Sf. Mc. Platon, Roman și Zaheu"
+ },
+ "11-19": {
+  "saints": "Sf. Prooroc Avdie; Sf. Mc. Varlaam"
+ },
+ "11-20": {
+  "saints": "Înainte-prăznuirea Intrării în Biserică a Maicii Domnului; †) Sf. Cuv. Grigorie Decapolitul; † Sf. Mc. Dasie; Sf. Ier. Proclu, arhiep. Constantinopolului",
+  "romanian": [
+   "†) Sf. Cuv. Grigorie Decapolitul",
+   "† Sf. Mc. Dasie"
+  ]
+ },
+ "11-21": {
+  "saints": "(†) Intrarea în Biserică a Maicii Domnului (Vovidenia)",
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la pește"
+  },
+  "sunday_prefix": {
+   "apostle": "Evrei IX, 1-7",
+   "gospel": "Luca X, 38-42; XI, 27-28"
+  }
+ },
+ "11-22": {
+  "saints": "Sf. Ap. Filimon, Arhip, Onisim și Apfia; Sf. Mc. Cecilia"
+ },
+ "11-23": {
+  "saints": "† Sf. Cuv. Antonie de la Iezerul Vâlcii; Sf. Ier. Amfilohie, ep. Iconiei și Grigorie, ep. Acragandelor",
+  "romanian": [
+   "† Sf. Cuv. Antonie de la Iezerul Vâlcii"
+  ],
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "11-24": {
+  "saints": "Sf. Sfințiți Mc. Clement, ep. Romei și Petru, ep. Alexandriei"
+ },
+ "11-25": {
+  "saints": "Odovania Praznicului Intrării în Biserică a Maicii Domnului; † Sf. M. Mc. Ecaterina; Sf. M. Mc. Mercurie",
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "11-26": {
+  "saints": "Sf. Cuv. Alipie Stâlpnicul, Nicon și Stelian Paflagonul"
+ },
+ "11-27": {
+  "saints": "Sf. M. Mc. Iacob Persul; Sf. Cuv. Natanail și Pinufrie"
+ },
+ "11-28": {
+  "saints": "†) Sf. Cuv. Mărt. Arsenie de la Prislop; Sf. Cuv. Mc. Ștefan cel Nou; Sf. Mc. Irinarh",
+  "romanian": [
+   "†) Sf. Cuv. Mărt. Arsenie de la Prislop"
+  ]
+ },
+ "11-29": {
+  "saints": "Sf. Mc. Paramon și Filumen; Sf. Cuv. Pitirun"
+ },
+ "11-30": {
+  "saints": "†) Sf. Ap. Andrei, cel Întâi Chemat, Ocrotitorul României; †) Sf. Ier. Andrei Șaguna, mitr. Transilvaniei; Sf. Ier. Frumentie, ep. Etiopiei",
+  "romanian": [
+   "†) Sf. Ier. Andrei Șaguna, mitr. Transilvaniei"
+  ],
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la pește"
+  },
+  "sunday_prefix": {
+   "apostle": "I Corinteni IV, 9-16",
+   "gospel": "Ioan I, 35-51"
+  }
+ },
+ "12-01": {
+  "saints": "† Sf. Anastasia, mama Sfântului Ier. Andrei Șaguna; Sf. Prooroc Naum; Sf. Cuv. Filaret cel Milostiv",
+  "romanian": [
+   "† Sf. Anastasia, mama Sfântului Ier. Andrei Șaguna"
+  ],
+  "notes": [
+   "Tedeum - Ziua Națională a României"
+  ]
+ },
+ "12-02": {
+  "saints": "†) Sf. Cuv. Paisie și Cleopa de la Sihăstria; Sf. Prooroc Avacum; Sf. Mc. Miropi; Sf. Porfirie Cavsocalivitul; Sf. Ier. Solomon, arhiep. Efesului",
+  "romanian": [
+   "†) Sf. Cuv. Paisie și Cleopa de la Sihăstria"
+  ]
+ },
+ "12-03": {
+  "saints": "†) Sf. Cuv. Gheorghe de la Cernica și Căldărușani; Sf. Prooroc Sofonie",
+  "romanian": [
+   "†) Sf. Cuv. Gheorghe de la Cernica și Căldărușani"
+  ],
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "12-04": {
+  "saints": "† Sf. M. Mc. Varvara; Sf. Cuv. Ioan Damaschin",
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "12-05": {
+  "saints": "†) Sf. Cuv. Sava cel Sfințit; Sf. Mc. Anastasie",
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "12-06": {
+  "saints": "†) Sf. Ier. Nicolae, arhiep. Mirelor Lichiei, făcătorul de minuni",
+  "red": true,
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la pește"
+  },
+  "sunday_prefix": {
+   "apostle": "Evrei XIII, 17-21",
+   "gospel": "Luca VI, 17-23"
+  }
+ },
+ "12-07": {
+  "saints": "†) Sf. Mc. Filofteia de la Curtea de Argeș; Sf. Ier. Ambrozie, ep. Mediolanului (Milano)",
+  "romanian": [
+   "†) Sf. Mc. Filofteia de la Curtea de Argeș"
+  ],
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "12-08": {
+  "saints": "Sf. Cuv. Patapie; Sf. Ap. Cezar, Tihic și Onisifor"
+ },
+ "12-09": {
+  "saints": "Zămislirea Sfintei Fecioare Maria de către Sf. Ana; Sf. Proorociță Ana, mama Proorocului Samuel",
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "12-10": {
+  "saints": "Sf. Mc. Mina, Ermoghen și Evgraf"
+ },
+ "12-11": {
+  "saints": "Sf. Cuv. Daniil Stâlpnicul și Luca cel Nou"
+ },
+ "12-12": {
+  "saints": "†) Sf. Ier. Spiridon, ep. Trimitundei, făcătorul de minuni",
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "12-13": {
+  "saints": "†) Sf. Ier. Dosoftei, mitr. Moldovei; † Sf. M. Mc. Eustratie, Auxentie, Evghenie, Mardarie și Orest; Sf. Mc. Lucia, fecioara din Siracuza",
+  "romanian": [
+   "†) Sf. Ier. Dosoftei, mitr. Moldovei"
+  ],
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "12-14": {
+  "saints": "Sf. Mc. Tirs, Calinic, Filimon și Apolonie"
+ },
+ "12-15": {
+  "saints": "Sf. Sfințit Mc. Elefterie, ep. Iliriei; Sf. Mc. Antia și Suzana; Sf. Cuv. Pavel din Latro"
+ },
+ "12-16": {
+  "saints": "Sf. Prooroc Agheu; Sf. Teofana, împ."
+ },
+ "12-17": {
+  "saints": "Sf. Prooroc Daniel și Sf. trei tineri: Anania, Azaria și Misail"
+ },
+ "12-18": {
+  "saints": "†) Sf. Cuv. Daniil Sihastrul; Sf. Mc. Sebastian și Zoe; Sf. Ier. Modest, arhiep. Ierusalimului",
+  "romanian": [
+   "†) Sf. Cuv. Daniil Sihastrul"
+  ],
+  "fast": {
+   "wd": "Dezlegare la pește",
+   "wf": "Dezlegare la ulei și vin"
+  }
+ },
+ "12-19": {
+  "saints": "† Sf. Cuv. Muceniță Evloghia de la Samurcășești; Sf. Mc. Bonifatie; Sf. Cuv. Aglaia, Sf. Ier. Grichentie, ep. Etiopiei",
+  "romanian": [
+   "† Sf. Cuv. Muceniță Evloghia de la Samurcășești"
+  ]
+ },
+ "12-20": {
+  "saints": "Înainte-prăznuirea Nașterii Domnului; Sf. Sfințit Mc. Ignatie Teoforul, ep. Antiohiei; †) Sf. Cuv. Serafim cel Răbdător de la Sâmbăta de Sus",
+  "romanian": [
+   "†) Sf. Cuv. Serafim cel Răbdător de la Sâmbăta de Sus"
+  ]
+ },
+ "12-21": {
+  "saints": "Sf. Mc. Iuliana din Nicomidia; Sf. Mc. Temistocle"
+ },
+ "12-22": {
+  "saints": "†) Sf. Ier. Petru Movilă, mitr. Kievului; Sf. M. Mc. Anastasia",
+  "romanian": [
+   "†) Sf. Ier. Petru Movilă, mitr. Kievului"
+  ]
+ },
+ "12-23": {
+  "saints": "† Sf. Cuv. Antonina de la Tismana; Sf. 10 Mc. din Creta; Sf. Ier. Pavel, arhiep. Neocezareei",
+  "romanian": [
+   "† Sf. Cuv. Antonina de la Tismana"
+  ]
+ },
+ "12-24": {
+  "saints": "Sf. Mc. Eugenia",
+  "notes": [
+   "Ajunul Crăciunului"
+  ]
+ },
+ "12-25": {
+  "saints": "(†) Nașterea Domnului (Crăciunul)",
+  "red": true,
+  "no_weddings": true
+ },
+ "12-26": {
+  "saints": "A doua zi de Crăciun; †) Soborul Maicii Domnului; †) Sf. Cuv. Nicodim cel Sfințit de la Tismana; †) Sf. Cuv. Mc. Gherasim de la Tismana; Sf. Sfințit Mc. Eftimie, ep. Sardelor",
+  "romanian": [
+   "†) Sf. Cuv. Nicodim cel Sfințit de la Tismana",
+   "†) Sf. Cuv. Mc. Gherasim de la Tismana"
+  ],
+  "red": true,
+  "no_weddings": true,
+  "sunday_prefix": {
+   "apostle": "Evrei II, 11-18; Galateni V, 22; VI, 2",
+   "gospel": "Matei II, 13-23; Matei XI, 27-30"
+  }
+ },
+ "12-27": {
+  "saints": "A treia zi de Crăciun; † Sf. Ap., întâiul Mc. și arhid. Ștefan; Sf. Cuv. Teodor Mărt.",
+  "red": true,
+  "no_weddings": true,
+  "sunday_prefix": {
+   "apostle": "Fapte VI, 8-15; VII, 1-5; 47-60",
+   "gospel": "Matei XXI, 33-44"
+  }
+ },
+ "12-28": {
+  "saints": "Sf. 20.000 de Mc. arși în Nicomidia",
+  "no_weddings": true
+ },
+ "12-29": {
+  "saints": "Sf. 14.000 de prunci uciși din porunca lui Irod; Sf. Cuv. Marcel și Tadeu",
+  "no_weddings": true
+ },
+ "12-30": {
+  "saints": "Sf. Mc. Anisia fecioara; Sf. Cuv. Teodora din Cezareea; Sf. Cuv. Leon, arhim.",
+  "no_weddings": true
+ },
+ "12-31": {
+  "saints": "Odovania Praznicului Nașterii Domnului; Sf. Cuv. Melania Romana; † Sf. Mc. Hermes",
+  "romanian": [
+   "† Sf. Mc. Hermes"
+  ],
+  "notes": [
+   "Slujba în noaptea trecerii dintre ani"
+  ],
+  "no_weddings": true
+ }
+}

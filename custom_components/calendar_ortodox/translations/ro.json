@@ -11,9 +11,6 @@
         }
       }
     },
-    "error": {
-      "cannot_connect": "Conexiunea la serviciul calendarului a eșuat. Vă rugăm să încercați din nou mai târziu."
-    },
     "abort": {
       "already_configured": "Calendarul Ortodox este deja configurat."
     }
@@ -21,7 +18,7 @@
   "services": {
     "refresh_calendar": {
       "name": "Reîmprospătează calendarul",
-      "description": "Forțează reîmprospătarea datelor calendarului de pe site, ștergând datele din cache."
+      "description": "Recalculează calendarul (șterge zilele din cache). Datele sunt calculate local, fără acces la internet."
     }
   }
 }

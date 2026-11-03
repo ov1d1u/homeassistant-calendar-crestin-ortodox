@@ -1,8 +1,8 @@
 # Calendar Ortodox - Home Assistant Integration
 
-A Home Assistant custom integration that provides Orthodox Christian calendar information from [noutati-ortodoxe.ro](https://www.noutati-ortodoxe.ro/calendar-ortodox/).
+A Home Assistant custom integration that provides the Romanian Orthodox calendar. It works fully offline: Easter and the movable feasts are calculated locally, and the saints, fixed feasts, fasting exceptions and readings (taken once from [noutati-ortodoxe.ro](https://www.noutati-ortodoxe.ro/calendar-ortodox/)) are bundled with the integration.
 
-> **Current Version:** v1.0.7
+> **Current Version:** v2.0.0
 
 ## Features
 
@@ -15,13 +15,14 @@ A Home Assistant custom integration that provides Orthodox Christian calendar in
 - **Următoarea Sărbătoare** (Next Feast Day) - Upcoming feast day with countdown
 
 ### Services
-- **refresh_calendar** - Manually force a data refresh from the website
+- **refresh_calendar** - Recompute the calendar (clears cached days)
 
 ### Information Provided
 - ✝️ Daily saints (Sfinți)
 - 🌟 Major feast days (Sărbători mari) - marked with crosses (†)
 - 🍞 Fasting information (Post)
-- 📖 Sunday liturgical readings (Apostle and Gospel)
+- 💍 Days without weddings (`no_weddings` attribute)
+- 📖 Sunday liturgical readings (Apostle and Gospel), tone and eothinon
 - 🌙 Moon phases
 - 📅 Liturgical titles and descriptions
 
@@ -181,14 +182,14 @@ title: Sărbători Ortodoxe
 
 ## Data Update
 
-The integration updates calendar data every 6 hours. The calendar is cached to reduce load on the source website.
+Everything is computed locally; no internet access is needed. States update just after midnight and once an hour.
 
 ## Technical Details
 
-- **Data Source**: [noutati-ortodoxe.ro](https://www.noutati-ortodoxe.ro/calendar-ortodox/)
-- **Update Interval**: 6 hours
+- **Data Source**: bundled data (`data/*.json`), originally from [noutati-ortodoxe.ro](https://www.noutati-ortodoxe.ro/calendar-ortodox/)
+- **Calculated locally**: Easter, movable feasts, fasting periods, Sunday numbering, tones, moon phases
 - **Platforms**: Calendar, Sensor
-- **Dependencies**: BeautifulSoup4, lxml
+- **Dependencies**: none
 
 ## Support
 
@@ -207,4 +208,4 @@ If you find this project useful, consider buying me a coffee!
 
 ## License
 
-This integration is provided as-is for personal use. The calendar data belongs to noutati-ortodoxe.ro.
+This integration is provided as-is for personal use. The bundled calendar data comes from noutati-ortodoxe.ro.

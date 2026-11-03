@@ -34,7 +34,7 @@ jobs:
           cd custom_components/calendar_ortodox
           zip -r "../../calendar_ortodox-${{ steps.release.outputs.tag_name }}.zip" \
             *.py manifest.json services.yaml strings.json \
-            translations/
+            translations/ data/ brand/
           cd ../..
 
       - name: Upload release asset

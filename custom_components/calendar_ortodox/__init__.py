@@ -1,18 +1,20 @@
-"""The Calendar Ortodox integration."""
+"""The Calendar Ortodox integration (offline)."""
+
 from __future__ import annotations
 
 import logging
-from datetime import timedelta
+from datetime import date
+from typing import Any
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import Platform
-from homeassistant.core import HomeAssistant, ServiceCall
-from homeassistant.exceptions import ConfigEntryNotReady
-from homeassistant.helpers.aiohttp_client import async_get_clientsession
-from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
+from homeassistant.core import HomeAssistant, ServiceCall, callback
+from homeassistant.helpers.event import async_track_time_change
+from homeassistant.helpers.update_coordinator import DataUpdateCoordinator
+from homeassistant.util import dt as dt_util
 
-from .api import CalendarOrtodoxAPI
 from .const import DOMAIN, SCAN_INTERVAL
+from .engine import OrthodoxCalendar
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -23,33 +25,38 @@ SERVICE_REFRESH_CALENDAR = "refresh_calendar"
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     """Set up Calendar Ortodox from a config entry."""
-    session = async_get_clientsession(hass)
-    api = CalendarOrtodoxAPI(session)
+    # Loading the bundled data reads files, so do it outside the event loop.
+    calendar = await hass.async_add_executor_job(
+        OrthodoxCalendar, None, hass.config.time_zone
+    )
 
-    coordinator = CalendarOrtodoxDataUpdateCoordinator(hass, api)
-
-    try:
-        await coordinator.async_config_entry_first_refresh()
-    except Exception as err:
-        raise ConfigEntryNotReady(f"Failed to fetch calendar data: {err}") from err
+    coordinator = CalendarOrtodoxDataUpdateCoordinator(hass, calendar)
+    await coordinator.async_config_entry_first_refresh()
 
     hass.data.setdefault(DOMAIN, {})
     hass.data[DOMAIN][entry.entry_id] = coordinator
 
+    # Update states right after midnight, when the day changes.
+    @callback
+    def _midnight(_now: Any) -> None:
+        hass.async_create_task(coordinator.async_refresh())
+
+    entry.async_on_unload(
+        async_track_time_change(hass, _midnight, hour=0, minute=0, second=5)
+    )
+
     await hass.config_entries.async_forward_entry_setups(entry, PLATFORMS)
 
-    # Register the refresh service
     async def handle_refresh_calendar(call: ServiceCall) -> None:
-        """Handle the refresh_calendar service call."""
-        _LOGGER.info("Manual calendar refresh requested")
-        await coordinator.async_request_refresh()
-        _LOGGER.info("Calendar refresh completed")
+        """Recompute the calendar (clears cached days)."""
+        _LOGGER.debug("Manual calendar refresh requested")
+        coordinator.calendar.clear_cache()
+        await coordinator.async_refresh()
 
-    hass.services.async_register(
-        DOMAIN,
-        SERVICE_REFRESH_CALENDAR,
-        handle_refresh_calendar,
-    )
+    if not hass.services.has_service(DOMAIN, SERVICE_REFRESH_CALENDAR):
+        hass.services.async_register(
+            DOMAIN, SERVICE_REFRESH_CALENDAR, handle_refresh_calendar
+        )
 
     return True
 
@@ -58,39 +65,25 @@ async def async_unload_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     """Unload a config entry."""
     if unload_ok := await hass.config_entries.async_unload_platforms(entry, PLATFORMS):
         hass.data[DOMAIN].pop(entry.entry_id)
-        
-        # Unregister service when last entry is removed
         if not hass.data[DOMAIN]:
             hass.services.async_remove(DOMAIN, SERVICE_REFRESH_CALENDAR)
-
     return unload_ok
 
 
-class CalendarOrtodoxDataUpdateCoordinator(DataUpdateCoordinator):
-    """Class to manage fetching Calendar Ortodox data."""
+class CalendarOrtodoxDataUpdateCoordinator(DataUpdateCoordinator[dict[str, Any]]):
+    """Keeps track of the current day; all data is computed locally."""
 
-    def __init__(self, hass: HomeAssistant, api: CalendarOrtodoxAPI) -> None:
+    def __init__(self, hass: HomeAssistant, calendar: OrthodoxCalendar) -> None:
         """Initialize the coordinator."""
-        super().__init__(
-            hass,
-            _LOGGER,
-            name=DOMAIN,
-            update_interval=SCAN_INTERVAL,
-        )
-        self.api = api
+        super().__init__(hass, _LOGGER, name=DOMAIN, update_interval=SCAN_INTERVAL)
+        self.calendar = calendar
 
-    async def _async_update_data(self) -> dict:
-        """Fetch data from API."""
-        try:
-            # Get the full year calendar
-            calendar_data = await self.api.get_year_calendar()
-            
-            _LOGGER.debug("Successfully fetched calendar data with %d months", len(calendar_data))
-            
-            return {
-                "calendar": calendar_data,
-                "api": self.api,
-            }
-        except Exception as err:
-            _LOGGER.error("Error fetching calendar data: %s", err)
-            raise UpdateFailed(f"Error communicating with API: {err}") from err
+    @property
+    def today(self) -> date:
+        """Today's date in Home Assistant's time zone."""
+        return dt_util.now().date()
+
+    async def _async_update_data(self) -> dict[str, Any]:
+        """Compute today's information."""
+        today = self.today
+        return {"today": today, "day": self.calendar.day(today)}

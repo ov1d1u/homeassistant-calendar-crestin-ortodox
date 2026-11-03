@@ -9,15 +9,17 @@
 
 Monitorizează zilnic sfinții, sărbătorile, posturile și citirile liturgice direct din Home Assistant.
 
+**Funcționează complet offline** (de la versiunea 2.0.0): nu are nevoie de internet și nu depinde de niciun site. Paștele și sărbătorile cu dată schimbătoare sunt calculate local, iar sfinții, sărbătorile cu dată fixă, dezlegările la post și citirile sunt incluse în integrare.
+
 ---
 
 ## ⚠️ DISCLAIMER
 
-**Această integrare utilizează date de la noutati-ortodoxe.ro pentru uz personal și educațional.**
+**Datele incluse au fost preluate o singură dată de pe [noutati-ortodoxe.ro](https://www.noutati-ortodoxe.ro/calendar-ortodox/), pentru uz personal și educațional.**
 
-- 📅 Datele calendarului aparțin noutati-ortodoxe.ro
-- ⚠️ Integrarea poate **înceta să funcționeze** dacă sursa își schimbă structura
-- ⚠️ Utilizarea se face pe **propriul risc**
+- 📅 Lista sfinților și a rânduielilor provine de la noutati-ortodoxe.ro
+- 🧮 Paștele, posturile, duminicile, glasurile și fazele lunii sunt calculate local
+- ⚠️ Utilizarea se face pe **propriul risc**; pentru rânduieli oficiale consultați calendarul Patriarhiei Române
 - 📖 Respectăm conținutul și sursa datelor
 
 **Autorul (Emanuel Besliu) furnizează această integrare "CA ATARE" fără nicio garanție.**
@@ -35,12 +37,14 @@ Monitorizează zilnic sfinții, sărbătorile, posturile și citirile liturgice 
 - ⭐ **Următoarea Sărbătoare** - Sărbătoare apropiată cu numărătoare inversă
 
 ### Informații Disponibile
-- ✝️ **Sfinți zilnici** - Numele sfinților prăznuiți
+- ✝️ **Sfinți zilnici** - Numele sfinților prăznuiți (inclusiv sfinții români)
 - 🌟 **Sărbători mari** - Marcate cu cruci (†) și (†)
 - 🍞 **Informații despre post** - Tipuri de post și dezlegări
-- 📖 **Citiri liturgice** - Apostol și Evanghelie pentru duminici
-- 🌙 **Faze lunare** - Informații despre lună
-- 📅 **Titluri liturgice** - Duminici și săptămâni speciale
+- 💍 **Zile fără nunți** - Atributul `no_weddings`
+- 📖 **Citiri liturgice** - Apostol și Evanghelie pentru duminici, glasul și voscresna
+- 🌙 **Faze lunare** - Lună nouă, primul pătrar, lună plină, ultimul pătrar
+- 📅 **Titluri liturgice** - Duminici și săptămâni speciale, pomeniri ale morților, denii
+- 📆 **Orice an** - Calculul funcționează pentru orice an (testat 1925–2100)
 
 ---
 
@@ -95,7 +99,7 @@ După câteva secunde, calendarele și senzorii vor apărea!
 
 | Entity ID | Stare | Atribute |
 |-----------|-------|----------|
-| `sensor.sfantul_zilei` | Sfântul zilei curente | `feast_day`, `feast_level`, `fasting`, `fasting_description`, `moon_phase`, `liturgical_info`, `readings` |
+| `sensor.sfantul_zilei` | Sfântul zilei curente | `saints`, `romanian_saints`, `day_of_week`, `feast_day`, `feast_level`, `fasting`, `fasting_type`, `fasting_description`, `fasting_period`, `no_weddings`, `notes`, `moon_phase`, `liturgical_info`, `readings`, `tone`, `eothinon` |
 | `sensor.urmatoarea_sarbatoare` | Următoarea sărbătoare | `date`, `days_until`, `feast_level`, `day_of_week` |
 
 ---
@@ -123,12 +127,22 @@ Integrarea oferă detalii complete despre post:
 
 | Tip Post | Descriere |
 |----------|-----------|
-| **Post** | Post general |
-| **Post negru** | Post strict (doar pâine și apă) |
+| **Post** | Post general (mâncare de post, fără ulei și vin în posturi) |
+| **Post negru** | Post strict (abținere totală) |
+| **Numai seara, pâine și apă** | Prima zi din Postul Mare, Săptămâna Mare |
+| **Numai seara, grâu fiert...** | Ajunul Crăciunului |
 | **Dezlegare la pește** | Se permite pește |
 | **Dezlegare la ulei și vin** | Se permit ulei și vin |
-| **Dezlegare la brânză, lapte și ouă** | Se permit produse lactate |
+| **Dezlegare la ouă, lactate și pește** | Săptămâna brânzei (fără carne) |
+| **Harți** | Zi fără post (miercuri/vineri din săptămânile fără post) |
 | **Zi aliturgică** | Fără liturghie |
+
+Atribute utile pe `sensor.sfantul_zilei`:
+
+- `fasting` - `true` când este zi de post (inclusiv cu dezlegare)
+- `fasting_type` - regula exactă (de ex. `Dezlegare la pește`) sau `null`
+- `fasting_period` - perioada: `ordinary`, `fast_free`, `cheesefare`, `great_lent`, `pentecostarion`, `apostles_fast`, `dormition_fast`, `nativity_fast_1/2/3`
+- `no_weddings` - `true` în zilele în care nu se fac nunți (posturi, miercuri și vineri, praznice și ajunuri)
 
 ---
 
@@ -221,13 +235,13 @@ entities:
 
 ## 🔄 Actualizare Date
 
-- **Interval implicit:** 6 ore (4 actualizări pe zi)
-- **Prima actualizare:** Imediat după configurare
-- **Cache:** Datele sunt cache-uite pentru a reduce solicitările
+- Toate datele sunt calculate local, **fără conexiune la internet**
+- Senzorii se actualizează imediat după miezul nopții (și o dată pe oră)
+- Calendarul poate fi răsfoit în orice an, inclusiv peste trecerea dintre ani
 
 ### Serviciu Manual de Reîmprospătare
 
-Poți forța o actualizare imediată a datelor calendarului folosind serviciul:
+Poți recalcula calendarul (șterge zilele din cache) folosind serviciul:
 
 ```yaml
 service: calendar_ortodox.refresh_calendar
@@ -256,7 +270,8 @@ automation:
 ```
 custom_components/calendar_ortodox/
 ├── __init__.py          # Setup integrare & coordinator
-├── api.py              # Client web scraping
+├── engine.py           # Calculul calendarului (offline)
+├── data/               # Sfinți, dezlegări, citiri (JSON)
 ├── calendar.py         # Entități calendar (2)
 ├── sensor.py           # Entități senzor (2)
 ├── config_flow.py      # Configurare UI
@@ -279,26 +294,11 @@ custom_components/calendar_ortodox/
 3. Caută erori cu `calendar_ortodox`
 4. Reload integrarea: **Settings** → **Devices & Services** → **Calendar Ortodox** → **Reload**
 
-### Eroare la încărcarea datelor
+### Date lipsă sau incorecte
 
-1. Verifică conexiunea la internet
-2. Site-ul noutati-ortodoxe.ro poate fi temporar offline
-3. Integrarea va reîncerca automat la următoarea actualizare
-4. Forțează o actualizare manuală: `service: calendar_ortodox.refresh_calendar`
-
-### Date lipsă sau incomplete
-
-- Unele zile pot avea mai puține informații
 - Citirile liturgice sunt disponibile doar duminica
-- Informațiile despre post variază în funcție de perioadă
-- **Soluție:** Folosește serviciul `calendar_ortodox.refresh_calendar` pentru a reîmprospăta datele
-
-### Nume sfinți lipsă sau incorecte
-
-Dacă vezi "Ziua X luna" în loc de numele sfântului:
-1. Apelează serviciul: `calendar_ortodox.refresh_calendar`
-2. Verifică log-urile pentru mesaje de debug
-3. Raportează problema pe GitHub Issues cu detalii despre ziua problemă
+- Sfinții canonizați recent apar după o actualizare a integrării
+- Raportează problema pe GitHub Issues cu data exactă și ce ar trebui să apară
 
 ### Debug
 
@@ -309,10 +309,30 @@ logger:
   default: info
   logs:
     custom_components.calendar_ortodox: debug
-    custom_components.calendar_ortodox.api: debug
 ```
 
 Apoi restartează Home Assistant și apelează `calendar_ortodox.refresh_calendar` pentru a genera log-uri detaliate.
+
+---
+
+## 🧑‍💻 Cum Funcționează (pentru dezvoltatori)
+
+- `engine.py` calculează Paștele (computus iulian), perioadele de post, numerotarea duminicilor (inclusiv „saltul" Evangheliilor de la Luca), glasurile, voscresnele și fazele lunii (algoritmul lui Meeus). Nu depinde de Home Assistant.
+- `data/menaion.json` - pentru fiecare zi a anului: sfinții, ziua roșie, rânduieli, dezlegări la post, zile fără nunți și citirile adăugate duminica.
+- `data/triodion.json` - pentru fiecare zi față de Paști: sărbătorile cu dată schimbătoare, rânduieli și duminicile din Triod și Penticostar.
+- `data/sundays.json` - duminicile după Rusalii și cele din jurul marilor praznice.
+
+Fișierele din `data/` sunt generate din paginile salvate în `tests/fixtures/site/`:
+
+```bash
+pip install -r requirements_dev.txt
+python scripts/build_data.py            # regenerează data/
+python scripts/build_data.py --download # descarcă întâi anii lipsă
+python scripts/compare_site.py          # compară cu site-ul, pe ani și câmpuri
+pytest tests
+```
+
+Anii 2027–2037 sunt generați de site din datele actuale și sunt reproduși integral. Integrarea urmează calendarul oficial tipărit acolo unde acesta diferă de generatorul site-ului: Moșii de toamnă (sâmbăta dinaintea Sf. Arhangheli), Duminica Sf. Părinți de la Sinodul VII (Pilda semănătorului) și duminica suplimentară de la începutul lui decembrie (Vindecarea orbului din Ierihon).
 
 ---
 
@@ -338,10 +358,10 @@ Vezi [LICENSE](LICENSE) pentru detalii complete.
 
 ## ⚠️ Disclaimer Legal
 
-Această integrare utilizează date de la noutati-ortodoxe.ro prin web scraping pentru uz personal și educațional. Nu este afiliată, endorsată sau suportată oficial de noutati-ortodoxe.ro.
+Această integrare include date preluate de la noutati-ortodoxe.ro, pentru uz personal și educațional. Integrarea nu accesează site-ul în timpul funcționării. Nu este afiliată, endorsată sau suportată oficial de noutati-ortodoxe.ro.
 
 Utilizarea se face pe propriul risc. Dezvoltatorul nu este responsabil pentru:
-- Modificări ale site-ului sursa care pot întrerupe funcționalitatea
+- Diferențe față de calendarul oficial al Patriarhiei Române
 - Probleme cauzate de utilizarea incorectă a integrării
 - Acuratețea sau completitudinea datelor furnizate
 

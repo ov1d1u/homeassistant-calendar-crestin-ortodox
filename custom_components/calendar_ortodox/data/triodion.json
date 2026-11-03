@@ -1,0 +1,333 @@
+{
+ "-70": {
+  "notes": [
+   "Începutul Triodului"
+  ],
+  "sunday": {
+   "title": "Duminica a XXXIII-a după Rusalii",
+   "subtitle": "(a Vameșului și Fariseului)",
+   "apostle": "II Timotei III, 10-15",
+   "gospel": "Luca XVIII, 10-14"
+  }
+ },
+ "-63": {
+  "sunday": {
+   "title": "Duminica a XXXIV-a după Rusalii",
+   "subtitle": "(a Întoarcerii Fiului Risipitor)",
+   "apostle": "I Corinteni VI, 12-20",
+   "gospel": "Luca XV, 11-32"
+  }
+ },
+ "-57": {
+  "notes": [
+   "Pomenirea morților - Moșii de iarnă"
+  ]
+ },
+ "-56": {
+  "sunday": {
+   "title": "Duminica Înfricoșătoarei Judecăți",
+   "subtitle": "(a Lăsatului sec de carne)",
+   "apostle": "I Corinteni VIII, 8-13; IX, 1-2",
+   "gospel": "Matei XXV, 31-46"
+  }
+ },
+ "-53": {
+  "notes": [
+   "Zi aliturgică"
+  ]
+ },
+ "-51": {
+  "notes": [
+   "Zi aliturgică"
+  ]
+ },
+ "-50": {
+  "notes": [
+   "Sâmbăta Sf. Cuvioși"
+  ]
+ },
+ "-49": {
+  "notes": [
+   "Lăsatul secului pentru Postul Sfintelor Paști"
+  ],
+  "sunday": {
+   "title": "Duminica Izgonirii lui Adam din Rai",
+   "subtitle": "(a Lăsatului sec de brânză)",
+   "apostle": "Romani XIII, 11-14; XIV, 1-4",
+   "gospel": "Matei VI, 14-21"
+  }
+ },
+ "-48": {
+  "notes": [
+   "Zi aliturgică",
+   "Canonul cel Mare, partea I; Începutul Postului Sfintelor Paști"
+  ]
+ },
+ "-47": {
+  "notes": [
+   "Zi aliturgică",
+   "Canonul cel Mare, partea a II-a"
+  ]
+ },
+ "-46": {
+  "notes": [
+   "Canonul cel Mare, partea a III-a"
+  ]
+ },
+ "-45": {
+  "notes": [
+   "Canonul cel Mare, partea a IV-a"
+  ]
+ },
+ "-43": {
+  "notes": [
+   "Sâmbăta Sf. Teodor - Pomenirea morților"
+  ]
+ },
+ "-42": {
+  "sunday": {
+   "title": "Duminica I din Post",
+   "subtitle": "(a Ortodoxiei; Chemarea lui Filip și a lui Natanael)",
+   "apostle": "Evrei XI, 24-26; 32-40",
+   "gospel": "Ioan I, 43-51"
+  }
+ },
+ "-36": {
+  "notes": [
+   "Sâmbăta a II-a din Post - Pomenirea morților"
+  ]
+ },
+ "-35": {
+  "sunday": {
+   "title": "Duminica a II-a din Post",
+   "subtitle": "(a Sf. Ier. Grigorie Palama; Vindecarea slăbănogului din Capernaum)",
+   "apostle": "Evrei I, 10-14; II, 1-3; VII, 26-28; VIII, 1-2",
+   "gospel": "Marcu II, 1-12; Ioan X, 9-16"
+  }
+ },
+ "-29": {
+  "notes": [
+   "Sâmbăta a III-a din Post - Pomenirea morților"
+  ]
+ },
+ "-28": {
+  "sunday": {
+   "title": "Duminica a III-a din Post",
+   "subtitle": "(a Sf. Cruci; Luarea crucii și urmarea lui Hristos)",
+   "apostle": "Evrei IV, 14-16; V, 1-6",
+   "gospel": "Marcu VIII, 34-38; IX, 1"
+  }
+ },
+ "-22": {
+  "notes": [
+   "Sâmbăta a IV-a din Post - Pomenirea morților"
+  ]
+ },
+ "-21": {
+  "sunday": {
+   "title": "Duminica a IV-a din Post",
+   "subtitle": "(a Sf. Cuv. Ioan Scărarul; Vindecarea fiului lunatic; Predica de pe munte - Fericirile)",
+   "apostle": "Evrei VI, 13-20; Efeseni V, 8-19",
+   "gospel": "Marcu IX, 17-32; Matei IV, 25; V, 1-12"
+  }
+ },
+ "-18": {
+  "notes": [
+   "Denia Canonului cel Mare"
+  ]
+ },
+ "-15": {
+  "notes": [
+   "Sâmbăta a V-a din Post - Pomenirea morților"
+  ]
+ },
+ "-14": {
+  "sunday": {
+   "title": "Duminica a V-a din Post",
+   "subtitle": "(a Sf. Cuv. Maria Egipteanca; Prevestirea Patimilor; Cererea fiilor lui Zevedeu; Pocăința femeii păcătoase)",
+   "apostle": "Evrei IX, 11-14; Galateni III, 23-29",
+   "gospel": "Marcu X, 32-45; Luca VII, 36-50"
+  }
+ },
+ "-8": {
+  "notes": [
+   "Sâmbăta lui Lazăr - Pomenirea morților"
+  ]
+ },
+ "-7": {
+  "replace": "",
+  "notes": [
+   "Denia Sf. și Marii Luni"
+  ],
+  "sunday": {
+   "title": "(†) Intrarea Domnului în Ierusalim",
+   "subtitle": "(Duminica a VI-a din Post - a Floriilor)",
+   "apostle": "Filipeni IV, 4-9",
+   "gospel": "Ioan XII, 1-18"
+  }
+ },
+ "-6": {
+  "prefix": "Sf. și Marea Luni",
+  "notes": [
+   "Denia Sf. și Marii Marți"
+  ]
+ },
+ "-5": {
+  "prefix": "Sf. și Marea Marți",
+  "notes": [
+   "Denia Sf. și Marii Miercuri"
+  ]
+ },
+ "-4": {
+  "prefix": "Sf. și Marea Miercuri",
+  "notes": [
+   "Denia Sf. și Marii Joi"
+  ]
+ },
+ "-3": {
+  "prefix": "Sf. și Marea Joi",
+  "notes": [
+   "Pomenirea morților - Denia celor 12 Evanghelii, a Sf. și Marii Vineri"
+  ]
+ },
+ "-2": {
+  "prefix": "Sf. și Marea Vineri - Scoaterea Sf. Aer",
+  "notes": [
+   "Zi aliturgică",
+   "Denia Prohodului Domnului, a Sf. și Marii Sâmbete"
+  ]
+ },
+ "-1": {
+  "prefix": "Sf. și Marea Sâmbătă"
+ },
+ "0": {
+  "replace": "",
+  "no_weddings": true,
+  "sunday": {
+   "title": "(†) Învierea Domnului (Sfintele Paști)",
+   "apostle": "Fapte I, 1-8",
+   "gospel": "Ioan I, 1-17"
+  }
+ },
+ "1": {
+  "prefix": "(†) A doua zi de Paști (Mărturia lui Ioan Botezătorul); †) Cinstirea Sf. Ic. a M. D. „Axion Estin” de la M. Protaton - Athos",
+  "red": true,
+  "no_weddings": true
+ },
+ "2": {
+  "prefix": "(†) A treia zi de Paști (Drumul spre Emaus)",
+  "red": true,
+  "no_weddings": true
+ },
+ "3": {
+  "no_weddings": true
+ },
+ "4": {
+  "no_weddings": true
+ },
+ "5": {
+  "prefix": "†) Izvorul Tămăduirii; †) Cinstirea Sf. Ic. a M. D. „Siriaca” de la M. Ghighiu",
+  "red": true,
+  "no_weddings": true
+ },
+ "6": {
+  "no_weddings": true
+ },
+ "7": {
+  "sunday": {
+   "title": "Duminica a II-a după Paști",
+   "subtitle": "(a Sf. Ap. Toma)",
+   "apostle": "Fapte V, 12-20",
+   "gospel": "Ioan XX, 19-31"
+  }
+ },
+ "14": {
+  "sunday": {
+   "title": "Duminica a III-a după Paști",
+   "subtitle": "(a Mironosițelor)",
+   "apostle": "Fapte VI, 1-7",
+   "gospel": "Marcu XV, 43-47; XVI, 1-8"
+  }
+ },
+ "21": {
+  "sunday": {
+   "title": "Duminica a IV-a după Paști",
+   "subtitle": "(Vindecarea slăbănogului de la Vitezda)",
+   "apostle": "Fapte IX, 32-42",
+   "gospel": "Ioan V, 1-15"
+  }
+ },
+ "24": {
+  "prefix": "Înjumătățirea praznicului Cincizecimii"
+ },
+ "28": {
+  "sunday": {
+   "title": "Duminica a V-a după Paști",
+   "subtitle": "(a Samarinencei)",
+   "apostle": "Fapte XI, 19-30",
+   "gospel": "Ioan IV, 5-42"
+  }
+ },
+ "31": {
+  "prefix": "Odovania Înjumătățirii praznicului Cincizecimii"
+ },
+ "35": {
+  "sunday": {
+   "title": "Duminica a VI-a după Paști",
+   "subtitle": "(Vindecarea orbului din naștere)",
+   "apostle": "Fapte XVI, 16-34",
+   "gospel": "Ioan IX, 1-38"
+  }
+ },
+ "38": {
+  "prefix": "Odovania praznicului Învierii Domnului"
+ },
+ "39": {
+  "prefix": "(†) Înălțarea Domnului (Ispasul); Ziua Eroilor",
+  "red": true,
+  "no_weddings": true
+ },
+ "42": {
+  "sunday": {
+   "title": "Duminica a VII-a după Paști",
+   "subtitle": "(a Sf. Părinți de la Sinodul I Ecumenic; Rugăciunea lui Iisus)",
+   "apostle": "Fapte XX, 16-18; 28-36",
+   "gospel": "Ioan XVII, 1-13"
+  }
+ },
+ "47": {
+  "prefix": "Odovania praznicului Înălțării Domnului"
+ },
+ "48": {
+  "notes": [
+   "Pomenirea morților - Moșii de vară"
+  ],
+  "no_weddings": true
+ },
+ "49": {
+  "replace": "",
+  "no_weddings": true,
+  "sunday": {
+   "title": "Duminica a VIII-a după Paști; (†) Pogorârea Sf. Duh",
+   "subtitle": "(Cincizecimea sau Rusaliile)",
+   "apostle": "Fapte II, 1-11",
+   "gospel": "Ioan VII, 37-53; VIII, 12"
+  }
+ },
+ "50": {
+  "replace": "(†) Sf. Treime",
+  "red": true,
+  "no_weddings": true
+ },
+ "55": {
+  "prefix": "Odovania praznicului Pogorârii Sf. Duh"
+ },
+ "56": {
+  "sunday": {
+   "title": "Duminica I după Rusalii",
+   "subtitle": "(a Tuturor Sfinților; Urmarea lui Hristos)",
+   "apostle": "Evrei XI, 33-40; XII, 1-2",
+   "gospel": "Matei X, 32-35; 37-38; XIX, 27-30"
+  }
+ }
+}

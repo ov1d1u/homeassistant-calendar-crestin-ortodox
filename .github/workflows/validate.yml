@@ -48,7 +48,7 @@ jobs:
           python-version: "3.13"
 
       - name: Install Home Assistant and dependencies
-        run: pip install homeassistant beautifulsoup4 lxml
+        run: pip install homeassistant
 
       - name: Test import of all integration modules
         run: |
