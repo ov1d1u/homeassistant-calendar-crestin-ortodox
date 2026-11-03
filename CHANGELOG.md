@@ -5,6 +5,13 @@ All notable changes to the Calendar Ortodox Home Assistant Integration will be d
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.1](https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox/compare/v2.0.0...v2.0.1) (2026-11-03)
+
+
+### Documentation
+
+* point HACS and download instructions to the ov1d1u fork ([84100f6](https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox/commit/84100f6e2aa49527278481933289d19d410953d4))
+
 ## [2.0.0] - 2026-11-03
 
 ### Changed
