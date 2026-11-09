@@ -156,6 +156,7 @@
  },
  "-7": {
   "replace": "",
+  "red": true,
   "notes": [
    "Denia Sf. și Marii Luni"
   ],
@@ -202,6 +203,7 @@
  },
  "0": {
   "replace": "",
+  "red": true,
   "no_weddings": true,
   "sunday": {
    "title": "(†) Învierea Domnului (Sfintele Paști)",
@@ -306,6 +308,7 @@
  },
  "49": {
   "replace": "",
+  "red": true,
   "no_weddings": true,
   "sunday": {
    "title": "Duminica a VIII-a după Paști; (†) Pogorârea Sf. Duh",

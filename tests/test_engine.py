@@ -58,12 +58,34 @@ def test_movable_feasts(calendar):
     assert calendar.day(date(2026, 4, 17)).title.startswith("†) Izvorul Tămăduirii")
 
 
+def test_feast_levels(calendar):
+    # Great feasts: class="sarbatoare" in HTML (red-letter feasts, regardless of (†), †) or †)
+    assert calendar.day(date(2026, 1, 6)).feast_level == "great"   # (†) Botezul Domnului
+    assert calendar.day(date(2026, 1, 7)).feast_level == "great"   # † Soborul Sf. Ioan Botezătorul
+    assert calendar.day(date(2026, 1, 30)).feast_level == "great"  # †) Sf. Trei Ierarhi
+    assert calendar.day(date(2026, 4, 17)).feast_level == "great"  # †) Izvorul Tămăduirii
+    assert calendar.day(date(2026, 5, 21)).feast_level == "great"  # (†) Înălțarea / †) Sf. Constantin și Elena
+    assert calendar.day(date(2026, 12, 6)).feast_level == "great"  # †) Sf. Ier. Nicolae (on Sunday)
+
+    # Major feasts: class="normal" with (†) or † in text
+    assert calendar.day(date(2026, 1, 11)).feast_level == "major"  # † Sf. Cuv. Teodosie (on Sunday)
+    assert calendar.day(date(2026, 1, 17)).feast_level == "major"  # †) Sf. Cuv. Antonie cel Mare
+
+    # Normal days: no class="sarbatoare" feast and no cross in text (including ordinary Sundays)
+    assert calendar.day(date(2026, 1, 8)).feast_level == "normal"  # ordinary weekday
+    assert calendar.day(date(2027, 1, 3)).feast_level == "normal"  # ordinary Sunday
+    assert calendar.day(date(2027, 1, 3)).feast_day is True
+
+
 def test_st_george_moves_to_bright_monday(calendar):
     # 2030: 23 April is Holy Tuesday, Easter is 28 April.
     assert "Gheorghe" not in calendar.day(date(2030, 4, 23)).title
+    assert calendar.day(date(2030, 4, 23)).feast_level == "normal"
     assert "Gheorghe" in calendar.day(date(2030, 4, 29)).title
+    assert calendar.day(date(2030, 4, 29)).feast_level == "great"
     # 2027: 23 April is in Lent but before Holy Week, so it stays.
     assert "Gheorghe" in calendar.day(date(2027, 4, 23)).title
+    assert calendar.day(date(2027, 4, 23)).feast_level == "great"
 
 
 def test_fasting_rules(calendar):

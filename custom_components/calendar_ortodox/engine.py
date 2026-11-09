@@ -170,6 +170,7 @@ class OrthodoxCalendarDay:
     saints: str
     romanian_saints: list[str] = field(default_factory=list)
     red: bool = False
+    red_feast: bool = False
     notes: list[str] = field(default_factory=list)
     fasting: str | None = None
     fasting_period: str = PERIOD_ORDINARY
@@ -209,10 +210,10 @@ class OrthodoxCalendarDay:
 
     @property
     def feast_level(self) -> str:
-        text = self.title
-        if "(†)" in text:
+        if self.red_feast:
             return FEAST_LEVEL_GREAT
-        if "†" in text:
+        text = self.title
+        if "(†)" in text or "†" in text:
             return FEAST_LEVEL_MAJOR
         return FEAST_LEVEL_NORMAL
 
@@ -635,7 +636,7 @@ class OrthodoxCalendar:
 
         fixed_saints = fixed.get("saints", "")
         romanian = list(fixed.get("romanian", []))
-        red = bool(fixed.get("red"))
+        red_feast = bool(fixed.get("red"))
 
         # St. George moves to Bright Monday when it falls in Holy Week / on Easter.
         george_day = date(year, *ST_GEORGE_DATE)
@@ -644,7 +645,7 @@ class OrthodoxCalendar:
         george_moved = (george_day - easter).days in ST_GEORGE_MOVE_OFFSETS
         if george_moved and (day.month, day.day) == ST_GEORGE_DATE:
             fixed_saints = "; ".join(fixed_saints.split("; ")[1:])
-            red = False
+            red_feast = False
 
         if "replace" in tri:
             saints = tri["replace"]
@@ -656,7 +657,8 @@ class OrthodoxCalendar:
             parts.append(fixed_saints)
             saints = "; ".join(p for p in parts if p)
 
-        red = red or bool(tri.get("red")) or day.weekday() == 6
+        red_feast = red_feast or bool(tri.get("red"))
+        red = red_feast or day.weekday() == 6
 
         notes = (
             list(fixed.get("notes", []))
@@ -678,6 +680,7 @@ class OrthodoxCalendar:
             saints=saints,
             romanian_saints=romanian,
             red=red,
+            red_feast=red_feast,
             notes=notes,
             fasting=fasting,
             fasting_period=period,

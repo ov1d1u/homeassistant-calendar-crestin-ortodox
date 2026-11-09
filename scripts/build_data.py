@@ -226,7 +226,9 @@ def build(
         collections.Counter
     )
     for day, info in observations:
-        if day.weekday() == 6 or menaion.get(menaion_key(day), {}).get("red"):
+        if (
+            day.weekday() == 6 and triodion.get(offset(day), {}).get("replace") != ""
+        ) or menaion.get(menaion_key(day), {}).get("red"):
             continue
         offset_red[offset(day)][info.is_red] += 1
     for off, counter in offset_red.items():

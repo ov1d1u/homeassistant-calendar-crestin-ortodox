@@ -42,9 +42,9 @@ ATTR_DAY_OF_WEEK = "day_of_week"
 ATTR_LITURGICAL_INFO = "liturgical_info"
 ATTR_COMMENTS = "comments"
 
-# Feast levels (from the crosses printed in the calendar)
-FEAST_LEVEL_MAJOR = "major"  # † or †)
-FEAST_LEVEL_GREAT = "great"  # (†)
+# Feast levels (from the HTML class="sarbatoare" and crosses printed in the calendar)
+FEAST_LEVEL_MAJOR = "major"  # (†) or † in text
+FEAST_LEVEL_GREAT = "great"  # class="sarbatoare" (red-letter feast)
 FEAST_LEVEL_NORMAL = "normal"
 
 # English translations of the fasting rules
