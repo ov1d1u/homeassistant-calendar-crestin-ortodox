@@ -5,6 +5,13 @@ All notable changes to the Calendar Ortodox Home Assistant Integration will be d
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0](https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox/compare/v2.0.2...v2.1.0) (2026-11-10)
+
+
+### Features
+
+* prefix great-feast titles with 🌟 in the main calendar ([44f7db0](https://github.com/ov1d1u/homeassistant-calendar-crestin-ortodox/commit/44f7db0ff008f9cee8198537d218571ff33f50ae))
+
 ## [2.0.3] - 2026-11-10
 
 ### Changed
