@@ -86,8 +86,6 @@ class _BaseOrthodoxCalendar(
         raise NotImplementedError
 
     def _summary(self, day_info: OrthodoxCalendarDay) -> str:
-        if day_info.feast_level == FEAST_LEVEL_GREAT:
-            return f"🌟 {day_info.title}"
         return day_info.title
 
     def _description(self, day_info: OrthodoxCalendarDay) -> str:
@@ -97,7 +95,7 @@ class _BaseOrthodoxCalendar(
         parts: list[str] = []
 
         if day_info.feast_level == FEAST_LEVEL_GREAT:
-            parts.append("🌟 Praznic Mare")
+            parts.append("Praznic Mare")
         elif day_info.feast_level == FEAST_LEVEL_MAJOR:
             parts.append("✝️ Sărbătoare")
 

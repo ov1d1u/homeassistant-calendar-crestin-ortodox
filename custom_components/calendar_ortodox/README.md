@@ -2,13 +2,13 @@
 
 A Home Assistant custom integration that provides the Romanian Orthodox calendar. It works fully offline: Easter and the movable feasts are calculated locally, and the saints, fixed feasts, fasting exceptions and readings (taken once from [noutati-ortodoxe.ro](https://www.noutati-ortodoxe.ro/calendar-ortodox/)) are bundled with the integration.
 
-> **Current Version:** v2.0.3
+> **Current Version:** v2.0.4
 
 ## Features
 
 ### Calendar Entities
 - **Full Orthodox Calendar** - All daily saints and events
-- **Feast Days Calendar** (Sărbători) - Major feast days only (marked with ✝️ or 🌟)
+- **Feast Days Calendar** (Sărbători) - Great feasts only
 
 ### Sensor Entities
 - **Sfântul Zilei** (Saint of the Day) - Current day's saints and information
@@ -19,7 +19,7 @@ A Home Assistant custom integration that provides the Romanian Orthodox calendar
 
 ### Information Provided
 - ✝️ Daily saints (Sfinți)
-- 🌟 Major feast days (Sărbători mari) - marked with crosses (†)
+- ⛪ Major feast days (Sărbători mari) - marked with crosses (†)
 - 🍞 Fasting information (Post)
 - 💍 Days without weddings (`no_weddings` attribute)
 - 📖 Sunday liturgical readings (Apostle and Gospel), tone and eothinon
@@ -57,11 +57,10 @@ The integration can be configured via the UI (Settings → Devices & Services).
 ### Calendar Entities
 1. **calendar.calendar_ortodox**
    - Full Orthodox calendar with all saints and events
-   - Shows feast days marked with ✝️ (major) or 🌟 (great)
    - Includes fasting information and Sunday readings in descriptions
 
 2. **calendar.calendar_ortodox_sarbatori**
-   - Only major feast days (sărbători)
+   - Only great feasts (praznice mari)
    - Filtered view showing only important celebrations
 
 ### Sensor Entities
@@ -89,7 +88,7 @@ The integration can be configured via the UI (Settings → Devices & Services).
 
 The integration recognizes different types of feast days based on the markers in the original calendar:
 
-- **🌟 Great Feasts** (Praznice Mari): Marked with `(†)` - Most important celebrations like Paști (Easter), Crăciun (Christmas)
+- **⛪ Great Feasts** (Praznice Mari): Marked with `(†)` - Most important celebrations like Paști (Easter), Crăciun (Christmas)
 - **✝️ Major Feasts** (Sărbători): Marked with `†` - Important saints and celebrations
 - **Regular Days**: No special marking
 

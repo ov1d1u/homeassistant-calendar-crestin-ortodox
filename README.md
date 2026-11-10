@@ -30,7 +30,7 @@ Monitorizează zilnic sfinții, sărbătorile, posturile și citirile liturgice 
 
 ### Calendar Entities
 - 📅 **Calendar Ortodox Complet** - Toți sfinții și evenimentele zilnice
-- ✝️ **Calendar Sărbători** - Doar sărbători majore (marcate cu ✝️ sau 🌟)
+- ✝️ **Calendar Sărbători** - Doar praznicele mari
 
 ### Sensor Entities  
 - 🕯️ **Sfântul Zilei** - Informații complete despre ziua curentă
@@ -38,7 +38,7 @@ Monitorizează zilnic sfinții, sărbătorile, posturile și citirile liturgice 
 
 ### Informații Disponibile
 - ✝️ **Sfinți zilnici** - Numele sfinților prăznuiți (inclusiv sfinții români)
-- 🌟 **Sărbători mari** - Marcate cu cruci (†) și (†)
+- ⛪ **Sărbători mari** - Marcate cu cruci (†) și (†)
 - 🍞 **Informații despre post** - Tipuri de post și dezlegări
 - 💍 **Zile fără nunți** - Atributul `no_weddings`
 - 📖 **Citiri liturgice** - Apostol și Evanghelie pentru duminici, glasul și voscresna
@@ -95,7 +95,7 @@ După câteva secunde, calendarele și senzorii vor apărea!
 | Entity ID | Descriere | Conținut |
 |-----------|-----------|----------|
 | `calendar.calendar_ortodox` | Calendar complet | Toți sfinții și evenimentele zilnice |
-| `calendar.calendar_ortodox_sarbatori` | Doar sărbători | Sărbători majore marcate cu ✝️ și 🌟 |
+| `calendar.calendar_ortodox_sarbatori` | Doar sărbători | Doar praznicele mari |
 
 ### Sensor Entities (2)
 
@@ -110,7 +110,7 @@ După câteva secunde, calendarele și senzorii vor apărea!
 
 Integrarea recunoaște diferite tipuri de sărbători pe baza marcajelor din calendar:
 
-- **🌟 Praznice Mari** (Great Feasts): Marcate cu `(†)` 
+- **⛪ Praznice Mari** (Great Feasts): Marcate cu `(†)` 
   - Paștile, Crăciunul, Boboteaza, etc.
   - Cele mai importante sărbători creștine
 
