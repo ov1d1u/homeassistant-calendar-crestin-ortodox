@@ -208,7 +208,7 @@ class OrthodoxFeastDaysCalendar(_BaseOrthodoxCalendar):
         self._attr_unique_id = f"{entry.entry_id}_feast_days"
 
     def _include(self, day_info: OrthodoxCalendarDay) -> bool:
-        return day_info.feast_day
+        return day_info.feast_level == FEAST_LEVEL_GREAT
 
     def _summary(self, day_info: OrthodoxCalendarDay) -> str:
         if day_info.feast_level == FEAST_LEVEL_GREAT:

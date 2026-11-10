@@ -95,6 +95,20 @@ async def test_calendar_events_across_new_year(hass: HomeAssistant, freezer) -> 
     assert [e["start"] for e in events] == ["2026-12-31", "2027-01-01"]
     assert events[1]["summary"].startswith("(†) Tăierea-împrejur")
 
+    feast_response = await hass.services.async_call(
+        "calendar",
+        "get_events",
+        {
+            "start_date_time": "2026-12-31 00:00:00",
+            "end_date_time": "2027-01-02 00:00:00",
+        },
+        target={"entity_id": "calendar.calendar_ortodox_sarbatori"},
+        blocking=True,
+        return_response=True,
+    )
+    feast_events = feast_response["calendar.calendar_ortodox_sarbatori"]["events"]
+    assert [e["start"] for e in feast_events] == ["2027-01-01"]
+
 
 async def test_long_state_is_trimmed(hass: HomeAssistant, freezer) -> None:
     freezer.move_to("2026-08-16 10:00:00+03:00")

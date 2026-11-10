@@ -2,7 +2,7 @@
 
 A Home Assistant custom integration that provides the Romanian Orthodox calendar. It works fully offline: Easter and the movable feasts are calculated locally, and the saints, fixed feasts, fasting exceptions and readings (taken once from [noutati-ortodoxe.ro](https://www.noutati-ortodoxe.ro/calendar-ortodox/)) are bundled with the integration.
 
-> **Current Version:** v2.0.1
+> **Current Version:** v2.0.2
 
 ## Features
 

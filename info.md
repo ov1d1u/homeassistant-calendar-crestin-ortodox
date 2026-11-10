@@ -4,7 +4,7 @@ Integrare Home Assistant pentru calendar creștin ortodox din România.
 
 Monitorizează zilnic sfinții, sărbătorile, posturile și citirile liturgice.
 
-> **Versiunea curentă:** v2.0.1 - funcționează complet offline, fără internet
+> **Versiunea curentă:** v2.0.2 - funcționează complet offline, fără internet
 
 ## Caracteristici Principale
 
