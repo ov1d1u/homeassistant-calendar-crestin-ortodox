@@ -93,7 +93,8 @@ async def test_calendar_events_across_new_year(hass: HomeAssistant, freezer) -> 
     )
     events = response["calendar.calendar_ortodox"]["events"]
     assert [e["start"] for e in events] == ["2026-12-31", "2027-01-01"]
-    assert events[1]["summary"].startswith("(†) Tăierea-împrejur")
+    assert events[0]["summary"].startswith("Odovania")
+    assert events[1]["summary"].startswith("🌟 (†) Tăierea-împrejur")
 
     feast_response = await hass.services.async_call(
         "calendar",
@@ -108,6 +109,8 @@ async def test_calendar_events_across_new_year(hass: HomeAssistant, freezer) -> 
     )
     feast_events = feast_response["calendar.calendar_ortodox_sarbatori"]["events"]
     assert [e["start"] for e in feast_events] == ["2027-01-01"]
+    # Both calendars title a great feast the same way.
+    assert feast_events[0]["summary"] == events[1]["summary"]
 
 
 async def test_long_state_is_trimmed(hass: HomeAssistant, freezer) -> None:

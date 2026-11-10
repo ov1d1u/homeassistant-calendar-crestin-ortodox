@@ -86,6 +86,8 @@ class _BaseOrthodoxCalendar(
         raise NotImplementedError
 
     def _summary(self, day_info: OrthodoxCalendarDay) -> str:
+        if day_info.feast_level == FEAST_LEVEL_GREAT:
+            return f"🌟 {day_info.title}"
         return day_info.title
 
     def _description(self, day_info: OrthodoxCalendarDay) -> str:
@@ -209,13 +211,6 @@ class OrthodoxFeastDaysCalendar(_BaseOrthodoxCalendar):
 
     def _include(self, day_info: OrthodoxCalendarDay) -> bool:
         return day_info.feast_level == FEAST_LEVEL_GREAT
-
-    def _summary(self, day_info: OrthodoxCalendarDay) -> str:
-        if day_info.feast_level == FEAST_LEVEL_GREAT:
-            return f"🌟 {day_info.title}"
-        if day_info.feast_level == FEAST_LEVEL_MAJOR:
-            return f"✝️ {day_info.title}"
-        return day_info.title
 
     @property
     def _next_feast(self) -> OrthodoxCalendarDay | None:
