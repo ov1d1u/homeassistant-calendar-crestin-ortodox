@@ -5,6 +5,14 @@ All notable changes to the Calendar Ortodox Home Assistant Integration will be d
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0] - 2026-11-25
+
+### Changed
+- **Breaking:** `feast_level` now tells `†)` and `†` apart. `major` is only for feasts marked `†)`
+  (or `(†)`), and the new `minor` level is for feasts marked with a plain `†`. Automations that check
+  `feast_level == "major"` no longer match `†` days.
+- Minor feasts still count as `feast_day`, and their calendar description says "Sărbătoare mică".
+
 ## [2.0.4] - 2026-11-10
 
 ### Changed

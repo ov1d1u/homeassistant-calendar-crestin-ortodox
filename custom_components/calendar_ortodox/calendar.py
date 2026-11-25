@@ -31,6 +31,7 @@ from .const import (
     FASTING_TRANSLATIONS,
     FEAST_LEVEL_GREAT,
     FEAST_LEVEL_MAJOR,
+    FEAST_LEVEL_MINOR,
     NEXT_FEAST_LOOKAHEAD_DAYS,
 )
 from .engine import OrthodoxCalendarDay
@@ -98,6 +99,8 @@ class _BaseOrthodoxCalendar(
             parts.append("Praznic Mare")
         elif day_info.feast_level == FEAST_LEVEL_MAJOR:
             parts.append("✝️ Sărbătoare")
+        elif day_info.feast_level == FEAST_LEVEL_MINOR:
+            parts.append("Sărbătoare mică")
 
         if include_fasting and day_info.fasting_info:
             parts.append(f"Post: {fasting_text(day_info, language)}")

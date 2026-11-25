@@ -2,7 +2,7 @@
 
 A Home Assistant custom integration that provides the Romanian Orthodox calendar. It works fully offline: Easter and the movable feasts are calculated locally, and the saints, fixed feasts, fasting exceptions and readings (taken once from [noutati-ortodoxe.ro](https://www.noutati-ortodoxe.ro/calendar-ortodox/)) are bundled with the integration.
 
-> **Current Version:** v2.0.4
+> **Current Version:** v3.0.0
 
 ## Features
 
@@ -69,7 +69,7 @@ The integration can be configured via the UI (Settings → Devices & Services).
    - Attributes:
      - `day_of_week`: Day name (L, M, M, J, V, S, D)
      - `feast_day`: True if it's a feast day
-     - `feast_level`: "major", "great", or "normal"
+     - `feast_level`: "great", "major", "minor", or "normal"
      - `fasting`: True if fasting applies
      - `fasting_description`: Fasting rules for the day
      - `moon_phase`: Current moon phase
@@ -88,8 +88,9 @@ The integration can be configured via the UI (Settings → Devices & Services).
 
 The integration recognizes different types of feast days based on the markers in the original calendar:
 
-- **⛪ Great Feasts** (Praznice Mari): Marked with `(†)` - Most important celebrations like Paști (Easter), Crăciun (Christmas)
-- **✝️ Major Feasts** (Sărbători): Marked with `†` - Important saints and celebrations
+- **⛪ Great Feasts** (`great`, Praznice Mari): Red-letter feasts in the calendar - Paști (Easter), Crăciun (Christmas), St. Nicholas, etc.
+- **✝️ Major Feasts** (`major`, Sărbători): Marked with `†)` - Important saints and celebrations
+- **Minor Feasts** (`minor`, Sărbători mici): Marked with a plain `†`
 - **Regular Days**: No special marking
 
 ## Fasting Information

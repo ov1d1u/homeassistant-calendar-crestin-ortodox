@@ -38,7 +38,7 @@ Monitorizează zilnic sfinții, sărbătorile, posturile și citirile liturgice 
 
 ### Informații Disponibile
 - ✝️ **Sfinți zilnici** - Numele sfinților prăznuiți (inclusiv sfinții români)
-- ⛪ **Sărbători mari** - Marcate cu cruci (†) și (†)
+- ⛪ **Sărbători mari** - Marcate cu cruci `(†)`, `†)` și `†`
 - 🍞 **Informații despre post** - Tipuri de post și dezlegări
 - 💍 **Zile fără nunți** - Atributul `no_weddings`
 - 📖 **Citiri liturgice** - Apostol și Evanghelie pentru duminici, glasul și voscresna
@@ -110,13 +110,14 @@ După câteva secunde, calendarele și senzorii vor apărea!
 
 Integrarea recunoaște diferite tipuri de sărbători pe baza marcajelor din calendar:
 
-- **⛪ Praznice Mari** (Great Feasts): Marcate cu `(†)` 
-  - Paștile, Crăciunul, Boboteaza, etc.
+- **⛪ Praznice Mari** (`great`): Sărbătorile cu roșu din calendar
+  - Paștile, Crăciunul, Boboteaza, Sf. Nicolae etc.
   - Cele mai importante sărbători creștine
 
-- **✝️ Sărbători** (Major Feasts): Marcate cu `†`
+- **✝️ Sărbători** (`major`): Marcate cu `†)`
   - Sfinți importanți, soboare, praznice
-  - Sărbători cu cruce roșie în calendar
+
+- **Sărbători mici** (`minor`): Marcate cu `†` simplă
 
 - **Zile Normale**: Fără marcaj special
   - Sfinți zilnici, pomeniri obișnuite

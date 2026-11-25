@@ -67,9 +67,12 @@ def test_feast_levels(calendar):
     assert calendar.day(date(2026, 5, 21)).feast_level == "great"  # (†) Înălțarea / †) Sf. Constantin și Elena
     assert calendar.day(date(2026, 12, 6)).feast_level == "great"  # †) Sf. Ier. Nicolae (on Sunday)
 
-    # Major feasts: class="normal" with (†) or † in text
-    assert calendar.day(date(2026, 1, 11)).feast_level == "major"  # † Sf. Cuv. Teodosie (on Sunday)
+    # Major feasts: not red-letter, with †) (or (†)) in text
     assert calendar.day(date(2026, 1, 17)).feast_level == "major"  # †) Sf. Cuv. Antonie cel Mare
+
+    # Minor feasts: not red-letter, with only a plain † in text
+    assert calendar.day(date(2026, 1, 11)).feast_level == "minor"  # † Sf. Cuv. Teodosie (on Sunday)
+    assert calendar.day(date(2026, 1, 11)).feast_day is True
 
     # Normal days: no class="sarbatoare" feast and no cross in text (including ordinary Sundays)
     assert calendar.day(date(2026, 1, 8)).feast_level == "normal"  # ordinary weekday

@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import json
 import math
+import re
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta, timezone
 from functools import lru_cache
@@ -118,7 +119,11 @@ MOON_PHASES = ["new_moon", "first_quarter", "full_moon", "last_quarter"]
 
 FEAST_LEVEL_GREAT = "great"
 FEAST_LEVEL_MAJOR = "major"
+FEAST_LEVEL_MINOR = "minor"
 FEAST_LEVEL_NORMAL = "normal"
+
+# A plain "†" (not "†)" and not "(†)").
+_MINOR_MARK = re.compile(r"†(?!\))")
 
 
 def orthodox_easter(year: int) -> date:
@@ -213,8 +218,10 @@ class OrthodoxCalendarDay:
         if self.red_feast:
             return FEAST_LEVEL_GREAT
         text = self.title
-        if "(†)" in text or "†" in text:
+        if "†)" in text:
             return FEAST_LEVEL_MAJOR
+        if _MINOR_MARK.search(text):
+            return FEAST_LEVEL_MINOR
         return FEAST_LEVEL_NORMAL
 
     @property
