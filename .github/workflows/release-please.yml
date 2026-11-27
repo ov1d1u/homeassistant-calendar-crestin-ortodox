@@ -22,6 +22,7 @@ jobs:
         with:
           release-type: python
           token: ${{ secrets.RELEASE_PLEASE_TOKEN || secrets.GITHUB_TOKEN }}
+          skip-github-pull-request: ${{ !secrets.RELEASE_PLEASE_TOKEN }}
 
       - name: Checkout (on release)
         if: steps.release.outputs.release_created
