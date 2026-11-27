@@ -10,11 +10,15 @@ def test_hacs_validation_uses_an_immutable_ref():
     assert "REPOSITORY_REF: ${{ github.event.pull_request.head.sha || github.sha }}" in hacs_step
 
 
-def test_release_please_can_use_a_personal_access_token():
+def test_release_please_uses_personal_access_token_when_available():
     workflow = (
         Path(__file__).parents[1] / ".github/workflows/release-please.yml"
     ).read_text()
     release_step = workflow.split("- name: Run Release Please", maxsplit=1)[1]
 
     assert "token: ${{ secrets.RELEASE_PLEASE_TOKEN || secrets.GITHUB_TOKEN }}" in release_step
+    assert (
+        "skip-github-pull-request: ${{ !secrets.RELEASE_PLEASE_TOKEN }}"
+        in release_step
+    )
     assert "package-name:" not in release_step
