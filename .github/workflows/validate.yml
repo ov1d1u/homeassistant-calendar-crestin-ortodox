@@ -21,6 +21,8 @@ jobs:
 
       - name: HACS validation
         uses: hacs/action@main
+        env:
+          REPOSITORY_REF: ${{ github.event.pull_request.head.sha || github.sha }}
         with:
           category: integration
           ignore: brands
