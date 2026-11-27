@@ -9,7 +9,7 @@ updates:
       day: "monday"
     open-pull-requests-limit: 5
     assignees:
-      - "emanuelbesliu"
+      - "ov1d1u"
     labels:
       - "dependencies"
       - "python"
