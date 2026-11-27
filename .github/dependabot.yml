@@ -1,7 +1,9 @@
 version: 2
 
 updates:
-  # Python dependencies
+  # Python development dependencies (requirements_dev.txt).
+  # The integration itself has no runtime requirements (manifest.json
+  # "requirements" is empty), so everything here is dev/test tooling.
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
@@ -14,18 +16,16 @@ updates:
       - "dependencies"
       - "python"
     commit-message:
-      prefix: "deps"
-      prefix-development: "deps-dev"
+      prefix: "deps-dev"
       include: "scope"
     versioning-strategy: increase
-    # Check for updates to packages in manifest.json
-    allow:
-      - dependency-name: "beautifulsoup4"
-        dependency-type: "direct"
-      - dependency-name: "lxml"
-        dependency-type: "direct"
+    groups:
+      python-minor-patch:
+        update-types:
+          - "minor"
+          - "patch"
 
-  # GitHub Actions
+  # GitHub Actions used by the workflows in .github/workflows
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -40,3 +40,8 @@ updates:
     commit-message:
       prefix: "ci"
       include: "scope"
+    groups:
+      actions-minor-patch:
+        update-types:
+          - "minor"
+          - "patch"
